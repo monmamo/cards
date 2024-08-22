@@ -1,0 +1,16 @@
+{
+    "name": "Garlic",
+    "card_type": "Mana",
+    "body_text": 
+    ["Roll 1d6. The effect will last for that many turns, including this one.",
+    "Resolution phase: Reduce Attack damage done by all other Monsters by 3."],
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}

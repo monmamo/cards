@@ -1,0 +1,16 @@
+{
+    "name": "Fieldworker",
+    "card_type": "Vendor",
+    "body_text": "Draw 2 cards.",
+    "stats": null,
+    "integrity":"1d4",
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null,
+    "_inspiration":["Fieldworker PTCG card" ,"https://bulbapedia.bulbagarden.net/wiki/Fieldworker_(EX_Legend_Maker_73)"]
+}

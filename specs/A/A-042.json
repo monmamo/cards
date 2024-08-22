@@ -1,0 +1,17 @@
+{
+    "name": "Copycat",
+    "card_type": "Draw",
+    "body_text": "Shuffle your hand into your deck. Choose another player. Count the number of cards in his hand. Draw that many cards.",
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null,
+    "_inspiration":[
+        "Copycat PTCG card" ,"https://bulbapedia.bulbagarden.net/wiki/Copycat_(Raichu_Half_Deck_21)"
+    ]
+}

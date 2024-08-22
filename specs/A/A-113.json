@@ -1,7 +1,7 @@
 {
     "name": "Creative Academy",
     "card_type": "Venue",
-    "body_text": null,
+    "body_text": "Upkeep phase: You may attach up to three Mana cards per Monster (instead of just one).",
     "stats": null,
     "image": {
         "filename": null,

@@ -1,0 +1,14 @@
+{
+    "name": "Keen Eye",
+    "card_type": "Trait",
+    "body_text": "Resolution phase:: Ignore any Defense or effect that would reduce or prevent the damage done by this Monster.",
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": "Prevents other monsters from lowering accuracy."
+}

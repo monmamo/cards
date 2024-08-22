@@ -1,0 +1,17 @@
+{
+    "name": "Earthquake",
+    "card_type": "Catastrophe",
+    "body_text": [
+        "Each Monster in play that does not have some sort of flying ability immediately takes 3d6 damage.",
+        "Each player discards 1d6+3 cards from the top of his Library."
+    ],
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": "Hope your insurance is paid up."
+}

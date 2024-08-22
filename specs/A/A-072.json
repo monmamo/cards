@@ -1,6 +1,10 @@
 {
-  "body_text": [ 
-    "Upkeep phase: You may choose a random card","from an opponent's hand. The opponent must","reveal that card to all players.","You may have that player discard that card","or shuffle it back into their Library."
+  "body_text": [
+    "Upkeep phase: You may choose a random card",
+    "from an opponent's hand. The opponent must",
+    "reveal that card to all players.",
+    "You may have that player discard that card",
+    "or shuffle it back into their Library."
   ],
   "card_type": "Mobster",
   "flavor_text": "",
@@ -10,7 +14,10 @@
     "source": ""
   },
   "integrity": "1d4",
-  "limit":"1 per player on Battlefield",
-  "name": "Enforcer"
-  
+  "limit": "1 per player on Battlefield",
+  "name": "Enforcer",
+  "_inspiration": [
+    "Hooligans Jim and Cas PTCG card",
+    "https://bulbapedia.bulbagarden.net/wiki/Hooligans_Jim_%26_Cas_(Dark_Explorers_95)"
+  ]
 }

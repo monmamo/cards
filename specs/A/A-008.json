@@ -1,14 +1,21 @@
 {
-  "_":"A person who collects money, as for racketeers.",
+  "_": "A person who collects money, as for racketeers.",
   "name": "Bagman",
   "card_id": "A-008",
   "card_type": "Vendor",
-  "body_text": ["You may play this card only if you have a","Mobster card on the Battlefield. Choose one","opponent. Roll 1d6. That opponent discards","that many cards from his Library,","or all if he doesn't have that many.","You may draw as many cards as were discarded."],
+  "body_text": [
+    "You may play this card only if you have a",
+    "Mobster card on the Battlefield. Choose one",
+    "opponent. Roll 1d6. That opponent discards",
+    "that many cards from his Library,",
+    "or all if he doesn't have that many.",
+    "You may draw as many cards as were discarded."
+  ],
   "image": {
-    "fullsize":true,
+    "fullsize": true,
     "filename": "A-008-full.png",
     "ai": true,
-    "prompt":"dark man in a mask wearing a trenchcoat carrying a large tote bag"
+    "prompt": "dark man in a mask wearing a trenchcoat carrying a large tote bag"
   },
   "integrity": "1d4"
 }
