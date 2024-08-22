@@ -1,11 +1,15 @@
 {
-      
     "name": "Tackling",
-    "card_id": "A-T-38",
     "card_type": "Trait",
-    "body_text": "When this Monster uses Pounce or a physical attack, the attack does an additional Speed damage to the defending Monster. After that damage is resolved, this Monster takes Speed damage.",
-    
-    "image":null,
+    "body_text": [
+        "When this Monster uses Pounce",
+        "or a physical attack,",
+        "the attack does +Speed damage",
+        "to the defending Monster.",
+        "After that damage is resolved,",
+        "this Monster takes Speed damage."
+    ],
+    "image": null,
     "credit": "",
     "flavor_text": ""
-  }
+}

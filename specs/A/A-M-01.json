@@ -1,13 +1,14 @@
 {
     "name": "Aquomusor L30",
-    
     "card_type": "Monster",
     "sex": "male",
-    "taxons": ["Aquos", "Musos"],
+    "taxons": [
+        "Aquos",
+        "Musos"
+    ],
     "speed": 18,
     "size": 12,
     "level": 30,
     "damage_capacity": 70,
-    
-    "image": "AM01"
+    "image": "A-M-01.png"
 }

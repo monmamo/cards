@@ -1,15 +1,15 @@
 {
-  "name": "Flamboyant Businessman",
-  "card_type": "Upkeep",
-  "body_text": [
-    "Discard five cards from your Hand",
-    "to play a Venue card from your Hand."
-  ],
-  "integrity": "1d4",
-  "image": {
-    "fullsize": true,
-    "filename": "A-091-full.png",
-    "ai": true
-  },
-  "flavor_text": "He builds the hugest venues. Yuge ones."
+    "name": "Flamboyant Mogul",
+    "card_type": "Upkeep",
+    "body_text": [
+        "Discard five cards from your Hand",
+        "to play a Venue card from your Hand."
+    ],
+    "integrity": "1d4",
+    "image": {
+        "fullsize": true,
+        "filename": "A-091-full.png",
+        "ai": true
+    },
+    "flavor_text": "He builds the hugest venues. Yuge ones."
 }

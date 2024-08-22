@@ -84,7 +84,7 @@ header("Content-Type: image/svg+xml");
             text-anchor: middle;
             white-space: normal;
             fill: black;
-margin: 5px;
+            margin: 5px;
         }
 
 
@@ -139,14 +139,14 @@ margin: 5px;
     </defs>
 
     <rect x="0" y="0" width="750" height="1050" fill="#000000" />
-    
+
     <?php
     $default_background = <<<SVG
 
 <text id="MON-MA-MO" xml:space="preserve">
-<tspan x="50%" y="440" font-family="DIN Alternate" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MON</tspan>
-<tspan x="50%" y="657.7" font-family="DIN Alternate" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MA</tspan>
-<tspan x="50%" y="875.4" font-family="DIN Alternate"  text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MO</tspan>
+<tspan x="50%" y="440" font-family="Roboto" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MON</tspan>
+<tspan x="50%" y="657.7" font-family="Roboto" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MA</tspan>
+<tspan x="50%" y="875.4" font-family="Roboto"  text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MO</tspan>
 </text>
 SVG;
 
@@ -162,15 +162,10 @@ SVG;
 
 
         <?php
-// <image xlink:href="developer.mozilla.png" x="50%" y="50%" height="62" width="71" transform="translate(-35.5,-31)"/>
-
-
         echo match (true) {
             !is_null($image_encoded) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"data:image/jpg;base64,$image_encoded\" />",
             default => ''
         };
-
-
         ?>
 
         <g>
@@ -181,13 +176,31 @@ SVG;
 
             <text x="50%" y="495" width="100%" height="auto" filter="url(#solid)">
                 <?php
-                $stats = [];
+                $stats ??= [];
+                $icons = [];
+                $iconed_stats = [];
+
                 if (isset($integrity)) $stats[] = "Integrity {$integrity}";
                 if (isset($limit)) $stats[] = "Limit {$limit}";
-                
-                if (count($stats) > 0) {
-                    echo "<tspan x=\"50%\"  dy=\"35\" width=\"100%\"  class=\"smallrule\">". implode(' ・ ', $stats)."</tspan>";
+
+                if (isset($damage_capacity)) {
+                    $icons[] = <<<SVG
+<path d="M196 16a30 30 0 0 0-30 30v120H46a30 30 0 0 0-30 30v120a30 30 0 0 0 30 30h120v120a30 30 0 0 0 30 30h120a30 30 0 0 0 30-30V346h120a30 30 0 0 0 30-30V196a30 30 0 0 0-30-30H346V46a30 30 0 0 0-30-30H196z" fill="#00FFFF" fill-opacity="1"></path>
+SVG;
+                    $iconed_stats[] = $damage_capacity;
                 }
+
+                foreach ($iconed_stats as $index => $stat) {
+                    echo "<tspan x=\"50%\"  dy=\"35\" width=\"100%\"  class=\"smallrule\">" . $icons[$index] . $stat . "</tspan>";
+                }
+
+                if (count($stats) > 0) {
+                    echo "<tspan x=\"50%\"  dy=\"35\" width=\"100%\"  class=\"smallrule\">" . implode(' ・ ', $stats) . "</tspan>";
+                }
+                ?>
+
+
+                <?php
 
                 foreach ($card_type_fqn::standardRule() as $line) {
                     echo "<tspan x=\"50%\" dy=\"25\" width=\"100%\" class=\"smallrule\">{$line}</tspan>";
@@ -204,13 +217,29 @@ SVG;
                 ?>
             </text>
 
-            <rect y="100%" width="100%" height="140" transform="translate(0,-140)" fill="#FFFFFF" />
-            <text x="50%" y="100%" transform="translate(0,-100)" text-anchor="middle" class="cardtype" alignment-baseline="middle"><?= strtoupper($card_type) ?></text>
-            <text x="50%" y="100%" transform="translate(0,-30)" text-anchor="middle" class="cardname" alignment-baseline="bottom"><?= $name ?></text>
+            <rect y="810" width="650" height="140" fill="#FFFFFF" />
+            <?php
+            $icon = $card_type_fqn::icon();
+            $text_x = is_string($icon) ? 395 : 325;
+
+            if (is_string($icon)) {
+            ?>
+                <svg id="card-type-icon" x="6" y="816" width="128" height="128" viewBox="0 0 128 128">
+                    <g transform="scale(0.25)" fill="#000000" fill-opacity="1">
+                        <?= $card_type_fqn::icon() ?>
+                    </g>
+                </svg>
+            <?php
+            }
+            ?>
+
+            <text x="<?= $text_x ?>" y="850" text-anchor="middle" class="cardtype" alignment-baseline="middle"><?= strtoupper($card_type) ?></text>
+            <text x="<?= $text_x ?>" y="920" text-anchor="middle" class="cardname" alignment-baseline="bottom"><?= $name ?></text>
 
         </g>
     </svg>
 
     <text x="2.5%" y="97.5%" class="credit" text-anchor="start" alignment-baseline="top">&#169; Monsters Masters &amp; Mobsters LLC</text>
+    <text x="70%" y="97.5%" class="credit" text-anchor="middle" alignment-baseline="top"><?= date('Y-m-d') ?></text>
     <text x="97.5%" y="97.5%" class="credit" text-anchor="end" alignment-baseline="top"><?= $card_id ?></text>
 </svg>

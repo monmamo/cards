@@ -15,20 +15,21 @@ require 'init.php';
 <style>
     body {
         display: flex;
-        height: 100vh;
         margin: 0;
+        height: 1050px;
+        padding-top: 4.5rem;
+
     }
 
     #left-section {
-        width: 100px;
         background-color: #f4f4f4;
         padding: 10px;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     }
 
     #right-section {
-        flex-grow: 1;
         padding: 20px;
+        display: inline;
     }
 
     a {
@@ -48,66 +49,122 @@ require 'init.php';
 function echo_section_for_set(\CardSet $set)
 {
 ?>
-    <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#<?= $set->value ?>-collapse" aria-expanded="false">
-            <?= sprintf('%s (%s)', $set->name, $set->value) ?>
-        </button>
-        <div class="collapse" id="<?= $set->value ?>-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <?php
-                foreach (iterate_cards(set: $set) as $card_id) {
-                ?>
-                    <li><a href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?></a></li>
-                <?php } ?>
-            </ul>
-        </div>
-    </li>
+    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+        <?php
+        foreach (iterate_cards(set: $set) as $card_id => $card_info) {
+        ?>
+            <li><a href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?> <?= $card_info->name ?? '' ?> </a></li>
+        <?php } ?>
+    </ul>
 <?php
 }
 ?>
 
 
 <body>
-    <div class="flex-shrink-0 p-3" style="width: 280px;" id="id-section">
-        <?php
-        echo_section_for_set(\CardSet::Base);
-        echo_section_for_set(\CardSet::Masters);
-        echo_section_for_set(\CardSet::Mobsters);
-        echo_section_for_set(\CardSet::FirstAid);
-        ?>
-    </div>
-    <div id="right-section">
-        <p>Select a link from the left to load content here.</p>
-    </div>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Monsters Masters &amp; Mobsters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sets</a>
+                        <ul class="dropdown-menu">
+                            <?php foreach (CardSet::cases() as $set) { ?>
+                                <li><a class="dropdown-item" href="#"><?= sprintf('%s (%s)', $set->name, $set->value) ?></a></li>
+                            <?php } ?>
+                        </ul>
+                    </li>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Card Types</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Attack</a></li>
+                        <li><a class="dropdown-item" href="#">Bane</a></li>
+                        <li><a class="dropdown-item" href="#">Bystander</a></li>
+                        <li><a class="dropdown-item" href="#">Catastrophe</a></li>
+                        <li><a class="dropdown-item" href="#">Defense</a></li>
+                        <li><a class="dropdown-item" href="#">Draw</a></li>
+                        <li><a class="dropdown-item" href="#">Drone</a></li>
+                        <li><a class="dropdown-item" href="#">Facility</a></li>
+                        <li><a class="dropdown-item" href="#">Mana</a></li>
+                        <li><a class="dropdown-item" href="#">Master</a></li>
+                        <li><a class="dropdown-item" href="#">Mobster</a></li>
+                        <li><a class="dropdown-item" href="#">Monster</a></li>
+                        <li><a class="dropdown-item" href="#">Place</a></li>
+                        <li><a class="dropdown-item" href="#">Trait</a></li>
+                        <li><a class="dropdown-item" href="#">Upkeep</a></li>
+                        <li><a class="dropdown-item" href="#">Vendor</a></li>
+                        <li><a class="dropdown-item" href="#">Venue</a></li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Subtypes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Item</a></li>
+                        </ul>
+                    </li>
+=                    </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col col-lg-3 flex-shrink-0 p-3" style="height: 1050px; overflow: auto" id="left-section">
+                <?php
+                echo_section_for_set(\CardSet::Base);
+                ?>
+            </div>
+            <div class="col col-lg-9" style="height: 1050px" id="right-section">
+                <p>Card displays here.</p>
+            </div>
+        </div>
+    </main>
 
     <script>
-var contentId = null;
+        var contentId = null;
 
-async function load(contentId){
-    if (!contentId && contentId === '') throw 'Invalid contentId';
+        async function load(contentId) {
+            if (!contentId && contentId === '') throw 'Invalid contentId';
 
-    const response = await fetch(`show.php?card_id=${contentId}`);
+            const response = await fetch(`show.php?card_id=${contentId}`);
 
-if (!response.ok) {
-    throw new Error(`Response status: ${response.status}`);
-}
+            if (!response.ok) {
+                throw new Error(`Response status: ${response.status}`);
+            }
 
-const rightSection = document.getElementById('right-section');
-rightSection.innerHTML = await response.text();
+            const rightSection = document.getElementById('right-section');
+            rightSection.innerHTML = await response.text();
 
-}
+        }
 
         document.querySelectorAll('.card-link').forEach(link => {
             link.addEventListener('click', async function(event) {
                 event.preventDefault();
-                 await load(contentId = this.getAttribute('data-id'));
+                await load(contentId = this.getAttribute('data-id'));
             });
         });
 
         document.querySelectorAll('#right-section').forEach(div => {
             div.addEventListener('dblclick', async function(event) {
                 event.preventDefault();
-                 await load(contentId);
+                await load(contentId);
+            });
+        });
+
+        document.querySelectorAll('#right-section').forEach(div => {
+            div.addEventListener('dblclick', async function(event) {
+                event.preventDefault();
+                await load(contentId);
             });
         });
 </script>

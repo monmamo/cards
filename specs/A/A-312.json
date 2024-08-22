@@ -1,18 +1,20 @@
 {
-  "body_text": [
-    "While on the Battlefield, counts as a Flying Monster. Cannot attack. Can use Dodge.",
-    "Upkeep phase: You may ask one opponent to show you their hand. (Only you get to see the hand.)"
-  ],
-  "card_type": "Drone",
-  "damage_capacity": 5,
-  "flavor_text": "Here's lookin' at you, kid.",
-  "image": {
-    "filename": "A312.jpg",
-    "credit": "catalyststuff on Freepik",
-    "source": ""
-  },
-  "name": "Spy Drone",
-  "size": 4,
-  "speed": 20,
-  "stats": "Item"
+    "body_text": [
+        "While on the Battlefield, counts as a Flying Monster. Cannot attack. Can use Dodge.",
+        "Upkeep phase: You may ask one opponent to show you their hand. (Only you get to see the hand.)"
+    ],
+    "card_type": "Drone",
+    "damage_capacity": 5,
+    "flavor_text": "Here's lookin' at you, kid.",
+    "image": {
+        "filename": "A312.jpg",
+        "credit": "catalyststuff on Freepik",
+        "source": ""
+    },
+    "name": "Spy Drone",
+    "size": 4,
+    "speed": 20,
+    "stats": [
+        "Item"
+    ]
 }
