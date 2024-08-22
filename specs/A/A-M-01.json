@@ -6,9 +6,9 @@
         "Aquos",
         "Musos"
     ],
+    "damage_capacity": 70,
     "speed": 18,
     "size": 12,
     "level": 30,
-    "damage_capacity": 70,
     "image": "A-M-01.png"
 }

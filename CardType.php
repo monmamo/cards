@@ -1,6 +1,6 @@
 <?php
 
-interface CardType {
+interface CardType extends \Contracts\HasIcon{
     /**
      * 512x512 original.
      */

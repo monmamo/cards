@@ -18,5 +18,6 @@
     ],
     "card_type": "Mana",
     "flavor_text": "Because both adulting and monster battling are hard.",
-    "name": "Caffeine"
+    "name": "Caffeine",
+    "transparent_name_background": true
 }

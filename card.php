@@ -129,20 +129,18 @@ header("Content-Type: image/svg+xml");
 
     <defs>
         <filter x="-5%" y="-5%" width="110%" height="110%" id="solid">
-            <feFlood flood-color="white" result="bg" />
+            <feFlood flood-color="white" flood-opacity="85%" result="bg" />
             <feMerge>
                 <feMergeNode in="bg" />
                 <feMergeNode in="SourceGraphic" />
             </feMerge>
         </filter>
-
     </defs>
 
     <rect x="0" y="0" width="750" height="1050" fill="#000000" />
 
     <?php
     $default_background = <<<SVG
-
 <text id="MON-MA-MO" xml:space="preserve">
 <tspan x="50%" y="440" font-family="Roboto" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MON</tspan>
 <tspan x="50%" y="657.7" font-family="Roboto" text-anchor="middle"  font-size="265" font-weight="700" fill="#333333" xml:space="preserve">MA</tspan>
@@ -166,6 +164,39 @@ SVG;
             !is_null($image_encoded) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"data:image/jpg;base64,$image_encoded\" />",
             default => ''
         };
+
+        $stats_recognized = [
+            'integrity' =>  \Stats\Integrity::class,
+            'damage_capacity' =>  \Stats\DamageCapacity::class,
+            'level' =>  \Stats\Level::class,
+            'size' =>  \Stats\Size::class,
+            'speed' =>  \Stats\Speed::class,
+        ];
+
+
+        $stats_found = [];
+        foreach ($stats_recognized as $slug => $fqn) {
+            if (isset($$slug)) {
+                $stats_found[] = [$$slug, $fqn];
+            }
+        }
+        foreach ($functions as $name) {
+                $stats_found[] = [$name, "\\Stats\\{$name}"];
+        }
+
+        define('STAT_ICON_HEIGHT', 54);
+        ?>
+        <rect width="54" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%"/>
+        <?php
+
+        foreach ($stats_found as $index => $data) {
+            list($value, $fqn) = $data;
+        ?>
+            <g transform="translate(2,<?= STAT_ICON_HEIGHT *$index+2 ?>) scale(0.09375)" fill="#000000" fill-opacity="1"><?= $fqn::icon() ?></g>
+            <text x="55" y="<?= STAT_ICON_HEIGHT * $index+2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" filter="url(#solid)"><?= $value ?></text>
+
+        <?php
+        }
         ?>
 
         <g>
@@ -177,22 +208,6 @@ SVG;
             <text x="50%" y="495" width="100%" height="auto" filter="url(#solid)">
                 <?php
                 $stats ??= [];
-                $icons = [];
-                $iconed_stats = [];
-
-                if (isset($integrity)) $stats[] = "Integrity {$integrity}";
-                if (isset($limit)) $stats[] = "Limit {$limit}";
-
-                if (isset($damage_capacity)) {
-                    $icons[] = <<<SVG
-<path d="M196 16a30 30 0 0 0-30 30v120H46a30 30 0 0 0-30 30v120a30 30 0 0 0 30 30h120v120a30 30 0 0 0 30 30h120a30 30 0 0 0 30-30V346h120a30 30 0 0 0 30-30V196a30 30 0 0 0-30-30H346V46a30 30 0 0 0-30-30H196z" fill="#00FFFF" fill-opacity="1"></path>
-SVG;
-                    $iconed_stats[] = $damage_capacity;
-                }
-
-                foreach ($iconed_stats as $index => $stat) {
-                    echo "<tspan x=\"50%\"  dy=\"35\" width=\"100%\"  class=\"smallrule\">" . $icons[$index] . $stat . "</tspan>";
-                }
 
                 if (count($stats) > 0) {
                     echo "<tspan x=\"50%\"  dy=\"35\" width=\"100%\"  class=\"smallrule\">" . implode(' ・ ', $stats) . "</tspan>";
@@ -217,8 +232,10 @@ SVG;
                 ?>
             </text>
 
-            <rect y="810" width="650" height="140" fill="#FFFFFF" />
-            <?php
+            <?php if (!isset($transparent_name_background) && !$transparent_name_background) { ?>
+                <rect y="810" width="650" height="140" fill="#FFFFFF" />
+            <?php }
+
             $icon = $card_type_fqn::icon();
             $text_x = is_string($icon) ? 395 : 325;
 
