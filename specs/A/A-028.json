@@ -1,0 +1,22 @@
+{
+    "colors":{
+        "credits":"#000000",
+        "flavor_text":"#000000"
+    },
+    "image": {
+        "filename": "A028-full.jpg",
+        "fullsize": true,
+        "credit": "macrovector on Freepik",
+        "source": "https://www.freepik.com/free-vector/realistic-cup-black-brewed-coffee-saucer-vector-illustration_23128948.htm"
+    },
+    "body_text": [
+        "For any attempt to put this Monster to Sleep,",
+        "roll 1d6. (Roll one die for each",
+        "Caffeine card attached to this Monster.)",
+        "If ⚄⚅, the Monster remains awake.",
+        "If ⚀⚁, discard this card."
+    ],
+    "card_type": "Mana",
+    "flavor_text": "Because both adulting and monster battling are hard.",
+    "name": "Caffeine"
+}

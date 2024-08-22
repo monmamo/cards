@@ -1,0 +1,11 @@
+{
+      
+    "name": "Flash of Lightning",
+    "card_id": "A-S-22",
+    "card_type": "Skill",
+    "body_text": ["Requires Energos.","Discard all Electricity cards attached to this Monster. Each other Monster in play takes 1d6 damage for each Electricity card discarded. Only this Monster may attack until and through this player’s next turn."],
+    
+    "image": "energosattack",
+    "flavor_text": "",
+    "stats": "Requires Energos."
+  }

@@ -1,0 +1,9 @@
+{
+      
+    "body_text":[ "Attach this card to a Monster.","Resolution phase: If this Monster did not take any damage on this turn, remove 3d6 damage from it."],
+    "card_type": "Upkeep",
+    "flavor_text": "Does a monster good!",
+    "image": {"filename":"A120.png","credit":"freepik","source":"","prompt":"green bottle of healing ointment"},
+    "name": "Healing Salve"
+
+  }

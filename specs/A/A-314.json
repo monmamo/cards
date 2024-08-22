@@ -1,0 +1,11 @@
+
+{
+      
+    "name": "Zombie",
+    "card_id": "A-314",
+    "card_type": "Bane",
+    "body_text": "The Monster no longer takes commands, always attacks on its player’s turn, and always uses Pounce and Dodge. If facing multiple Monsters, choose the one it attacks by dice roll.",
+    
+    "image": {"filename":"A314.png","credit":"Delapouite via Game-Icons.net, used under CC BY 3.0","source":""},
+    "flavor_text": ""
+  }

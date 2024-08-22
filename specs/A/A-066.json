@@ -1,0 +1,14 @@
+{
+  "name": "Cruel Order",
+  "card_id": "A-066",
+  "card_type": "Catastrophe",
+  "body_text": [
+    "Discard the highest-level Monster",
+    "of each opponent",
+    "and all cards attached to that Monster."
+  ],
+  "image": {
+    "filename": "A066.jpeg",
+    "ai": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "male Energos Monster L35",
+    "card_id": "A-M-07",
+    "card_type": "Monster",
+    "sex": "male",
+    "taxons": ["Energos"],
+    "speed": 18,
+    "size": 12,
+    "level": 35,
+    "damage_capacity": 65,
+    "multiplier":3,
+    "background_color": "#FB9E00",
+    "image": "AM07",
+    "flavor_text": "",
+    "stats": ""
+}

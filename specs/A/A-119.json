@@ -1,0 +1,10 @@
+{
+      
+    "name": "Healing Elixir",
+    "card_id": "A-119",
+    "card_type": "Upkeep",
+    "body_text": "Discard any number of cards from your hand. For each card you discarded, remove 5 damage from one Monster.",
+    
+    "image": {"filename":"A119.jpg","credit":"freepik","source":""},
+    "flavor_text": ""
+  }

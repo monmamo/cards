@@ -1,0 +1,15 @@
+{
+    "name": "Enerctigress L40",
+    
+    "card_type": "Monster",
+    "sex":     "female",
+    "taxons": ["Energos", "Tigros"],
+    "speed": 10,
+    "size": 22,
+    "level": 40,
+    "damage_capacity": 70,
+    "body_text": " •  •  • ",
+    "multiplier": 3,
+    "background_color": "#FB9E00",
+    "image": "AM06"
+}

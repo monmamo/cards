@@ -1,0 +1,14 @@
+{
+  "name": "Fragrance",
+  "card_type": "Trait",
+  "body_text": [
+    "Fragrance Strength: 1d6",
+    "(rolled at attach; can be increased by Power Up)",
+    "Reduce damage done by any",
+    "Monsters' Attacks by Fragrance Strength.",
+    "Reduce damage prevented by any",
+    "Monsters' Defenses by Fragrance Strength."
+  ],
+  "image": null,
+  "flavor_text": ""
+}

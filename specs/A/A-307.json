@@ -1,0 +1,7 @@
+{
+    "body_text": ["Upkeep phase: You may heal 4 damage from and/or attach a Water Mana card from your Library or Discard to each of your Monsters in play.",    "After using this card, put it at the bottom of your deck. If you searched through your Library, shuffle it."],
+    "card_type": "Upkeep",
+    "image":{"filename":"A307.png","ai":true},
+    "name": "Drinking Water Fountain"
+
+  }

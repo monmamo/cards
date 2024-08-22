@@ -1,0 +1,12 @@
+{
+    "name": "Aquofeless L40",
+    
+    "card_type": "Monster",
+    "speed": 10,
+    "size": 20,
+    "level": 40,
+    "damage_capacity": 90,
+    "taxons":["Aquos", "Felos"],
+    "sex":"female",
+    "image": "AM03"
+}

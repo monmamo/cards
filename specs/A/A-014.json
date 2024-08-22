@@ -1,0 +1,16 @@
+{
+  "name": "Big-Box Store",
+  "card_type": "Vendor",
+  "body_text": [
+    "Discard three cards from your hand.",
+    "Search your Library for two Item cards.",
+    "Reveal them, then put them in your hand.",
+    "Shuffle your library."
+  ],
+  "integrity": "1d4",
+  "image": {
+    "filename": "A-014.jpg",
+    "credit": "teravector on Freepik",
+    "source": "https://www.freepik.com/free-vector/express-truck-delivering-goods-supermarket_4147963.htm"
+  }
+}

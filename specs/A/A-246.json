@@ -1,0 +1,9 @@
+{
+    "name": "Shopping Center",
+    "card_id": "A-246",
+    "card_type": "Place",
+    "body_text": "Draw phase: Each player may search their Library for a Vendor card and play it immediately (shuffling their Library afterward). Then they may take another Draw phase.",
+    
+    "image":{"filename":"A246.jpeg","ai":true},
+    
+  }

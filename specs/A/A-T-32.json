@@ -1,0 +1,11 @@
+{
+      
+    "name": "Ramming",
+    
+    "card_type": "Trait",
+    "body_text": "When this Monster uses Pounce or any other physical attack, If the defending Monster takes any damage, roll 1d6. If ⚃⚄⚅, it cannot attack on the next turn. If ⚅, also discard one Trait card from the defending Monster.",
+    
+    "image": "AT32",
+    "credit": "",
+    "flavor_text": ""
+  }

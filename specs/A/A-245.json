@@ -1,0 +1,12 @@
+{
+    "name": "Sheriff",
+    "card_id": "A-245",
+    "card_type": "Bystander",
+    "body_text": "Discard all Mobster cards on the Battlefield. No more Mobster cards can be played as long as a Sheriff card is on the Battlefield.",
+    "integrity": "2d6",
+    "stats": "Limit 1 on Battlefield among all players",
+    "image": {
+        "filename": "A245.png",
+        "ai": true
+    }
+}

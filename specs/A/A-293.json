@@ -1,0 +1,13 @@
+{
+      
+    "name": "Wheel of Fortune",
+    "card_id": "A-293",
+    "card_type": "Draw",
+    "body_text": "Each player puts his hand on the bottom of his Library, then draws seven cards.",
+    "image": {
+        "filename": "A293.jpg",
+        "credit":"freepik",
+        "source": "https://www.freepik.com/free-psd/casino-roulette-icon-render_23877079.htm"
+    }
+    
+  }

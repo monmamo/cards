@@ -1,0 +1,9 @@
+{
+      
+    "name": "Dandruff",
+    "card_type": "Trait",
+    "body_text": "When this Monster takes a physical attack, the attacking Monster takes 1d6 damage.",
+    
+    "image": {"filename":"A318.jpeg","credit":"Generated image","source":""},
+    "flavor_text": ""
+  }

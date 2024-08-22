@@ -1,0 +1,19 @@
+{
+  "name": "Convenience Store",
+  "card_id": "A-040",
+  "card_type": "Vendor",
+  "body_text": [
+    "Discard 1d4 cards from your hand.",
+    "Search your Library for one Consumable card. ",
+    "Reveal it, then put it in your hand.",
+    "Shuffle your library.",
+    "You may perform another Draw phase action."
+  ],
+  "integrity": "1d6",
+  "stats": " ",
+  "flavor_text": "The quick stop for all your needs.",
+  "image": {
+    "filename": "A040.png",
+    "ai": true
+  }
+}

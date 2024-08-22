@@ -1,0 +1,7 @@
+{
+    "name": "Cunning",
+    "card_type": "Trait",
+    "body_text":[ "Draw phase: Choose a Library.","Look at the top 4 cards of that Library","without rearranging them.","Then you may shuffle that Library."],
+    "image": null,
+    "flavor_text": ""
+}

@@ -1,0 +1,10 @@
+{
+        
+    "name": "Bolt of Lightning",
+    
+    "card_type": "Attack",
+    "body_text": "Discard all Electricity cards from the attacking Monster. Roll 2d6 for each Electricity card discarded from this Monster. The damage done is the sum of these roles.",
+    "image": "energosattack",
+    "flavor_text": "",
+    "stats": "Requires Energos."
+}

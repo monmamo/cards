@@ -1,0 +1,19 @@
+{
+  "name": "Alms to the Poor",
+  
+  "card_type": "Draw",
+  "body_text": [
+    "To play this card, there must be at least one",
+    "opponent with zero or one cards in their hand.",
+    "Each of these players can draw 1 card.",
+    "Once they have done so,",
+    "you may draw up to three cards."
+  ],
+  
+  "image": {
+    "filename": "A004.jpg",
+    "credit": "freepik",
+    "source": "https://www.freepik.com/free-photo/hand-pouring-food-birds_1713221.htm#fromView=search&page=1&position=45&uuid=7fc4cf54-5ef4-4b35-9c76-227be3edaf94"
+  },
+  "flavor_text": "Pay it forward even when it isn't cool."
+}

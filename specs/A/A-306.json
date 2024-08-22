@@ -1,0 +1,8 @@
+{
+    "body_text": "Choose a Monster in play. For 1d4 turns (including this one), apply Paralysis.",
+    "card_type": "Upkeep",
+    "flavor_text": "Ouuuuuch....",
+    "image": {"filename": "A306.jpg","ai": true    },
+    "name": "Tranquilizer Dart",
+    "stats": "Item"
+}

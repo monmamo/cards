@@ -1,0 +1,14 @@
+{
+    "name": "Pyrohystrix L45",
+    "card_id": "A-M-12",
+    "card_type": "Monster",
+    "sex": "female",
+    "taxons": ["Pyros", "Hystrix"],
+    "multiplier": 4,
+    "speed": 8,
+    "size": 25,
+    "level": 45,
+    "damage_capacity": 75,
+    "image": "AM12"
+    
+}

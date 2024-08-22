@@ -1,0 +1,16 @@
+{
+  "name": "Halitosis",
+  "card_type": "Bane",
+  "body_text": [
+    "Resolution phase: When a Monster on",
+    "this Monster’s team attacks or defends,",
+    "roll X = 1d4.",
+    "Reduce the damage done or prevented by Xd4."
+  ],
+  "image": {
+    "filename": "A110.jpg",
+    "credit": "brgfx on Freepik",
+    "source": ""
+  },
+  "flavor_text": "They say that bad breath is better than no breath at all…"
+}

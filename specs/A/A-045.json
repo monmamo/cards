@@ -1,0 +1,10 @@
+{
+  "name": "Crooked Cop",
+  "card_type": "Mobster",
+  "body_text":[ "Draw phase: Choose an opponent.","Choose a random card from that opponent's","hand. They must discard that card.","Reveal cards from the top of your Library until an","Item card appears. Put that card in your hand.","Shuffle the other cards back into your Library."],
+  "integrity": "1d4",
+  "image": {
+    "filename": "A-045.jpg",
+    "ai": true
+  }
+}

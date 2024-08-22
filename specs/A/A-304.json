@@ -1,0 +1,14 @@
+{
+    "name": "Easter Egg",
+    "card_type": 
+"Draw",
+    "body_text": "Search your Library for a card that makes a cultural reference. Reveal the card. Explain the reference. If nobody can disprove you, put the card in your hand. Otherwise discard the card. Then shuffle your Library.",
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null
+    },
+    "credit": null,
+    "flavor_text": null
+}

@@ -1,0 +1,20 @@
+{
+  "image": {
+    "filename": "A189.jpg",
+    "credit": "freepik",
+    "source": ""
+  },
+
+  
+  "body_text": [
+    "Limit 1 per player on Battlefield. You must",
+    "already have a Head Coach on the Battlefield",
+    "to put this card on the Battlefield.",
+    "You may put the Attack cards you use",
+    "at the bottom of your Library."
+],
+
+  "card_type": "Bystander",
+  "integrity": "1d6",
+  "name": "Offensive Coordinator"
+}

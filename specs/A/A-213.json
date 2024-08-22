@@ -1,0 +1,12 @@
+{
+    "name": "Recycle Mana",
+    
+    "card_type": "Draw",
+    "body_text": "Shuffle up to 5 basic Mana cards from your Discard pile into your Library.",
+    "image": {
+        "filename": "A212.jpg",
+        "credit":"logturnal on Freepik",
+        "source": "https://www.freepik.com/free-vector/recycle-colorful-geometric-gradient-logo-vector_27230675.htm"
+    }
+    
+  }

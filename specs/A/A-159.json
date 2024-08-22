@@ -1,0 +1,16 @@
+{
+    "name": "Mana Recycle System",
+    
+    "card_type": "Vendor",
+    "body_text": [
+        "You may do one of the following:",
+        "- Put a basic Mana card from your Refuse into your Hand.",
+        "- Shuffle 3 basic Mana cards from your Discard pile into your Library."
+    ],
+    "integrity": "1d4",
+    "image": {
+        "filename": "A212.jpg",
+        "credit":"logturnal on Freepik",
+        "source": "https://www.freepik.com/free-vector/recycle-colorful-geometric-gradient-logo-vector_27230675.htm"
+    }
+}

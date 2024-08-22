@@ -1,0 +1,13 @@
+{
+  "image": {
+    "filename": "A186.jpg",
+    "credit": "fxquadro on Freepik",
+    "source": ""
+  },
+  "body_text": "During your opponents' Draw phase, they must let you draw a card of your own, or discard two of their own cards.",
+  "card_type": "Mobster",
+  "flavor_text": "Nice monster team you got there. Would be a shame if something happened to it.",
+  "integrity": "1d4",
+  "name": "Neighborhood \"Protection\"",
+  "stats": "Limit 1 on Battlefield among all players"
+}

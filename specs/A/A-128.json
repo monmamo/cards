@@ -1,0 +1,10 @@
+{
+    "name": "Idiot Agents",
+    
+    "card_type": "Draw",
+    "body_text": "Choose an opponent. That opponent removes all Monster cards from his Library and puts them in Discard.",
+    
+    "integrity":"1d4",
+    "image":{"filename":"A128.png","ai":true},
+    "flavor_text": "The less we hear from them, the better they are serving us."
+  }

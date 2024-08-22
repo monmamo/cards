@@ -1,0 +1,13 @@
+{
+    "name": "Pyrorodent L30",
+    "card_id": "A-M-09",
+    "card_type": "Monster",
+    "sex": "male",
+    "taxons": ["Pyros"],
+    "multiplier": 2,
+    "speed": 10,
+    "size": 16,
+    "level": 30,
+    "damage_capacity": 60,
+    "image": "AM09"
+}

@@ -1,0 +1,11 @@
+{
+  "body_text": ["Choose an opponent. That opponent","reveals their hand. Choose one card.","The opponent puts that card","on the bottom of their Library."],
+  "card_type": "Draw",
+  "flavor_text": "",
+  "image": {
+    "filename": "A025.jpeg",
+    "credit": "Adobe Stock #58908676",
+    "source": ""
+  },
+  "name": "Busybody"
+}

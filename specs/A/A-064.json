@@ -1,0 +1,13 @@
+{
+    "name": "Dual Cranial Horns",
+    "card_id": "A-064",
+    "card_type": "Trait",
+    "body_text":[ "Size +6.","Gives the attack “Horn Attack”","which does Speed×2 damage."],
+    
+    "image": {
+        "filename": "A064.jpg",
+        "credit":"wirestock on Freepik",
+        "source": ""
+    },
+    "flavor_text": ""
+}

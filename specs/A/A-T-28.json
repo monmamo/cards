@@ -1,0 +1,10 @@
+{
+      
+    "name": "Large Brain",
+    "card_id": "A-T-28",
+    "card_type": "Trait",
+    "body_text": "Size +3. Attack base damage +5.",
+    
+    "image": {"filename":"AT28","credit":"pikisuperstar on Freepik","source":""},
+    "flavor_text": ""
+  }

@@ -1,0 +1,10 @@
+{
+      
+    "name": "Dire Form",
+    
+    "card_type": "Trait",
+    "body_text": "Size +5. Speed +3.",
+    
+    "image": {"filename":"AT21","credit":"freepik","source":""},
+    "flavor_text": ""
+  }

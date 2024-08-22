@@ -1,0 +1,17 @@
+{
+  "name": "Dividends",
+  "card_id": "A-063",
+  "card_type": "Vendor",
+  "body_text": [
+    "Turn your Discard pile face-down,",
+    "shuffle it, and draw 1d6 cards from it",
+    "without looking at them.",
+    "Shuffle those cards into your Library."
+  ],
+  "image": {
+    "filename": "A135.jpg",
+    "credit": "photoroyalty on Freepik",
+    "source": "https://www.freepik.com/free-vector/time-is-money-background_1014317.htm"
+  },
+  "flavor_text": "The reward for being a patient investor."
+}
