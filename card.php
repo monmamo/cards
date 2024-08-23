@@ -41,11 +41,6 @@ $colors = match (true) {
     is_null($colors) => new \stdClass(),
 };
 
-
-
-
-
-
 header("Content-Type: image/svg+xml");
 ?>
 
@@ -180,7 +175,7 @@ SVG;
                 $stats_found[] = [$$slug, $fqn];
             }
         }
-        foreach ($functions as $name) {
+        foreach ($functions ?? [] as $name) {
                 $stats_found[] = [$name, "\\Stats\\{$name}"];
         }
 
@@ -232,7 +227,7 @@ SVG;
                 ?>
             </text>
 
-            <?php if (!isset($transparent_name_background) && !$transparent_name_background) { ?>
+            <?php if (!isset($transparent_name_background) || !$transparent_name_background) { ?>
                 <rect y="810" width="650" height="140" fill="#FFFFFF" />
             <?php }
 

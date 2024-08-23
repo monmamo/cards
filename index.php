@@ -10,6 +10,7 @@ require 'init.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/htmx.org@2.0.2"></script>
 </head>
 
 <style>
@@ -46,6 +47,16 @@ require 'init.php';
 </head>
 
 <?php
+function navlink($url, $label)
+{
+    echo <<<HTML
+<li><a  hx-get="$url"
+hx-trigger="click"
+hx-target="#left-section"
+hx-swap="innerHTML" class="dropdown-item" href="#">$label</a></li>
+HTML;
+}
+
 function echo_section_for_set(\CardSet $set)
 {
 ?>
@@ -53,7 +64,10 @@ function echo_section_for_set(\CardSet $set)
         <?php
         foreach (iterate_cards(set: $set) as $card_id => $card_info) {
         ?>
-            <li><a href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?> <?= $card_info->name ?? '' ?> </a></li>
+            <li><a hx-get="show.php?card_id=<?= $card_id ?>"
+                    hx-trigger="click"
+                    hx-target="#right-section"
+                    hx-swap="innerHTML" href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?> <?= $card_info->name ?? '' ?></a></li>
         <?php } ?>
     </ul>
 <?php
@@ -62,8 +76,6 @@ function echo_section_for_set(\CardSet $set)
 
 
 <body>
-
-
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Monsters Masters &amp; Mobsters</a>
@@ -108,7 +120,20 @@ function echo_section_for_set(\CardSet $set)
                             <li><a class="dropdown-item" href="#">Item</a></li>
                         </ul>
                     </li>
-=                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Decks</a>
+                        <ul class="dropdown-menu">
+                            <?php
+                            echo navlink("/deck.php?id=sdv-library", "SDV Library");
+                            echo navlink("/deck.php?id=sdv-monsters", "SDV Monsters");
+                            echo navlink("/deck.php?id=pdv-e", "PDV Electricty Starter");
+                            echo navlink("/deck.php?id=pdv-f", "PDV Fire Starter");
+                            echo navlink("/deck.php?id=pdv-w", "PDV Water Starter");
+                            ?>
+                        </ul>
+                    </li>
+
+                </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -147,12 +172,12 @@ function echo_section_for_set(\CardSet $set)
 
         }
 
-        document.querySelectorAll('.card-link').forEach(link => {
-            link.addEventListener('click', async function(event) {
-                event.preventDefault();
-                await load(contentId = this.getAttribute('data-id'));
-            });
-        });
+        //        document.querySelectorAll('.card-link').forEach(link => {
+        //          link.addEventListener('click', async function(event) {
+        //          event.preventDefault();
+        //            await load(contentId = this.getAttribute('data-id'));
+        //      });
+        //   });
 
         document.querySelectorAll('#right-section').forEach(div => {
             div.addEventListener('dblclick', async function(event) {
@@ -160,14 +185,7 @@ function echo_section_for_set(\CardSet $set)
                 await load(contentId);
             });
         });
-
-        document.querySelectorAll('#right-section').forEach(div => {
-            div.addEventListener('dblclick', async function(event) {
-                event.preventDefault();
-                await load(contentId);
-            });
-        });
-</script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 

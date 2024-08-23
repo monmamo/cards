@@ -13,7 +13,7 @@ spl_autoload_register(function ($fully_qualified_class_name) {
  */
 function path_for_card($card_id): string
 {
-    $pieces = explode($card_id, '-');
+    $pieces = explode('-',$card_id );
 
     return ("specs/{$pieces[0]}/{$card_id}.json");
 }
