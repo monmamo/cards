@@ -1,0 +1,15 @@
+
+{
+    "name": "Volcanic Island",
+    "card_type": "Place",
+    "body_text": "",
+    "stats": null,"subtypes":["Island","Mountain","Volcano"],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}

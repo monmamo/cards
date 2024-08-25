@@ -1,0 +1,15 @@
+
+{
+    "name": "Maze",
+    "card_type": "Venue",
+    "body_text": "Resolution phase: Before applying the effect of any skill, roll 1d6. If ⚀⚂⚃⚃, the skill has no effect.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}

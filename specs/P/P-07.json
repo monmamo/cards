@@ -1,0 +1,20 @@
+
+{
+    "name": "Giant Stump",
+    "card_type": "Venue",
+    "body_text": [
+"This card may be played only if there are two or three players.",
+"The Battlefield may be occupied by no more than 6 Monsters and 4 Anthropes.",
+"If there are additional Monsters or Anthropes in the Battlefield, each player in turn, starting with the one playing Giant Stump, discards a Monster or Anthrope.",
+],
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null,
+    "_inspiration": "Giant Stump PTCG card https://bulbapedia.bulbagarden.net/wiki/Giant_Stump_(EX_Legend_Maker_75)"
+}

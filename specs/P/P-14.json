@@ -1,0 +1,17 @@
+
+{
+    "name": "Navigator",
+    "card_type": "Place",
+    "body_text": "Search your Library for a Place card, reveal it, and put it in your hand. Then shuffle your Library.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null,
+    "_inspiration": "Stadium Nav https://bulbapedia.bulbagarden.net/wiki/Stadium_Nav_(Unified_Minds_208)"
+
+}
