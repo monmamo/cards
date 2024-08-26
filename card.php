@@ -22,10 +22,10 @@ $image = match (true) {
     is_null($image) => new \stdClass(),
 };
 
-$image_encoded = match (true) {
-    isset($image->filename) =>   base64_encode(file_get_contents("images/{$image->filename}")),
-    default => null,
-};
+$image_uri =     isset($image->filename) ? match (true) {
+    str_starts_with( $image->filename,'http') => $image->filename,
+    file_exists("images/{$image->filename}") => 'data:image/jpg;base64,' . base64_encode(file_get_contents("images/{$image->filename}"))
+} : null;
 
 $image_credit = match (true) {
     isset($image->ai) && $image->ai => "Generated image",
@@ -144,7 +144,7 @@ header("Content-Type: image/svg+xml");
 SVG;
 
     echo match (true) {
-        $image->fullsize ?? false => "<image href=\"data:image/jpg;base64,$image_encoded\" />",
+        $image->fullsize ?? false => "<image href=\"$image_uri\" />",
         default => $card_type_fqn::background() ?? $default_background
     };
     ?>
@@ -156,7 +156,7 @@ SVG;
 
         <?php
         echo match (true) {
-            !is_null($image_encoded) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"data:image/jpg;base64,$image_encoded\" />",
+            !is_null($image_uri) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"$image_uri\" />",
             default => ''
         };
 
@@ -176,19 +176,19 @@ SVG;
             }
         }
         foreach ($functions ?? [] as $name) {
-                $stats_found[] = [$name, "\\Stats\\{$name}"];
+            $stats_found[] = [$name, "\\Stats\\{$name}"];
         }
 
         define('STAT_ICON_HEIGHT', 54);
         ?>
-        <rect width="54" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%"/>
+        <rect width="54" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%" />
         <?php
 
         foreach ($stats_found as $index => $data) {
             list($value, $fqn) = $data;
         ?>
-            <g transform="translate(2,<?= STAT_ICON_HEIGHT *$index+2 ?>) scale(0.09375)" fill="#000000" fill-opacity="1"><?= $fqn::icon() ?></g>
-            <text x="55" y="<?= STAT_ICON_HEIGHT * $index+2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" filter="url(#solid)"><?= $value ?></text>
+            <g transform="translate(2,<?= STAT_ICON_HEIGHT * $index + 2 ?>) scale(0.09375)" fill="#000000" fill-opacity="1"><?= $fqn::icon() ?></g>
+            <text x="55" y="<?= STAT_ICON_HEIGHT * $index + 2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" filter="url(#solid)"><?= $value ?></text>
 
         <?php
         }

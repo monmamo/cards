@@ -11,7 +11,7 @@ enum CardSet: string
     case Dracquinia    = 'DRQ';
     case EmpireOfTheCounter    = 'EC';
     case Energos     = 'EN';
-    case FairheartSaga    = 'FS';
+    case FairheartSaga    = 'DF';
     case FirstAid     = 'FA';
     case LongIslandCounty    = 'LI';
     case MentalAbilities     = 'MNTL';
@@ -26,4 +26,6 @@ enum CardSet: string
     case Pyros     = 'PY';
     case PyroTA    = 'PTA';
     case RiseOfSwitch    = 'AS';
+    case ElementsAndMaterials = 'E';
+    case PlacesAndEnvironments = 'P';
 }
