@@ -1,7 +1,7 @@
 {
     "name": "Farmer's Refuse",
     "card_type": "Draw",
-    "body_text": ["Discard any number of cards from your hand. For each card discarded, search your Discard for a Monster or Mana card. Reveal those cards, then put them in your hand."],
+    "body_text": ["Discard any number of cards from your hand.","For each card discarded,","search your Discard for a Monster or Mana card.","Reveal those cards,","then put them in your hand."],
     "stats": null,
     "image": {
         "filename": null,

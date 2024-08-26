@@ -1,0 +1,85 @@
+{
+    "name": "Masters Set",
+    "unassigned": [
+        {
+            "name": "Backpack Check",
+            "card_type": null,
+            "body_text": "No more Item cards can be played.",
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Buffet",
+            "card_type": "Vendor",
+            "body_text": "Search your Library for any number of distinct Mana cards and put them into your hand. Shuffle your Library.",
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "body_text": [
+                "Limit 1 per player on Battlefield. You must",
+                "already have a Head Coach on the Battlefield",
+                "to put this card on the Battlefield.",
+                "Draw phase: For each card you draw, you may look at the top 3 cards of your Library If you do this, you may put one of those cards in your hand. The other cards go to the bottom of your Library."
+            ],
+            "card_type": "Bystander",
+            "integrity": "1d6",
+            "name": "Draw Coach"
+        },
+        {
+            "name": "Face Guard",
+            "card_type": "Wearable",
+            "body_text": null,
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Generous Fan",
+            "card_type": "Bystander",
+            "body_text": "Draw phase: You may draw a card and take another Draw phase.",
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Sympathetic Fan",
+            "card_type": "Bystander",
+            "body_text": "Resolution phase: When one of your Monsters is Knocked Out, you may draw up to 3 cards.",
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "name": "Base Set",
+    "unassigned": [
+        {
+            "name": "Make It Rain",
+            "card_type": "Draw",
+            "body_text": "Every player may draw up to 5 cards.",
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Community Center",
+            "card_type": "Facility",
+            "body_text": "No Mobsters allowed.",
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": "Have a hot meal. Hang out with the boys."
+        },
+        {
+            "name": "Private Event",
+            "card_type": "Environment",
+            "body_text": "No Bystanders allowed.",
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },{
+            "name": "Sleight of Hand",
+            "card_type": "Draw",
+            "body_text": ["Put any number of cards from your hand","on the bottom of your Library in any order.","Then, draw a card for each card you put","on the bottom of your Library."],
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai":false,
+                "prompt":null
+            },
+            "flavor_text": null,
+            "_inspiration":"https://bulbapedia.bulbagarden.net/wiki/Caitlin_(Plasma_Blast_78)"
+        },{
+            "name": "Unknown Allergen",
+            "card_type": "Bane",
+            "body_text": ["Resolution phase: For 1d6 turns,","once all other effects have been resolved,","this Monster takes 1d6 damage."],
+            "stats": null,
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai":false,
+                "prompt":null
+            },
+            "flavor_text": null
+        }
+
+
+    ]
+}

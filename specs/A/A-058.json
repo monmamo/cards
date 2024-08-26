@@ -1,7 +1,7 @@
 {
     "name": "Keen Eye",
     "card_type": "Trait",
-    "body_text": "Resolution phase:: Ignore any Defense or effect that would reduce or prevent the damage done by this Monster.",
+    "body_text":[ "Resolution phase: Ignore any Defense or effect","that would reduce or prevent the damage done","by this Monster."],
     "stats": null,
     "image": {
         "filename": null,

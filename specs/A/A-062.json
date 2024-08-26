@@ -1,7 +1,7 @@
 {
     "name": "Delivery Service",
     "card_type": "Vendor",
-    "body_text": "Search your Library for an Item card. Reveal it. Then put it in your hand.",
+    "body_text":[ "Search your Library for an Item card.","Reveal it. Then put it in your hand."],
     "stats": null,
     "image": {
         "filename": null,

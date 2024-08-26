@@ -10,7 +10,7 @@
     "Reveal those cards, then put them",
     "in your hand."
   ],
-  "stats": "Integrity 1d4",
+  "integrity": "1d4",
   "image": {
     "filename": "A082.png",
     "ai": true

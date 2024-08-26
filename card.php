@@ -27,6 +27,8 @@ $image_uri =     isset($image->filename) ? match (true) {
     file_exists("images/{$image->filename}") => 'data:image/jpg;base64,' . base64_encode(file_get_contents("images/{$image->filename}"))
 } : null;
 
+$image_svg = isset($image->svg) ? $image->svg : null;
+
 $image_credit = match (true) {
     isset($image->ai) && $image->ai => "Generated image",
     !isset($image->credit) => null,
@@ -157,6 +159,7 @@ SVG;
         <?php
         echo match (true) {
             !is_null($image_uri) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"$image_uri\" />",
+            !is_null($image_svg) => $image_svg,
             default => ''
         };
 
@@ -181,14 +184,14 @@ SVG;
 
         define('STAT_ICON_HEIGHT', 54);
         ?>
-        <rect width="54" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%" />
+        <rect width="154" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%" />
         <?php
 
         foreach ($stats_found as $index => $data) {
             list($value, $fqn) = $data;
         ?>
             <g transform="translate(2,<?= STAT_ICON_HEIGHT * $index + 2 ?>) scale(0.09375)" fill="#000000" fill-opacity="1"><?= $fqn::icon() ?></g>
-            <text x="55" y="<?= STAT_ICON_HEIGHT * $index + 2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" filter="url(#solid)"><?= $value ?></text>
+            <text x="55" y="<?= STAT_ICON_HEIGHT * $index + 2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" ><?= $value ?></text>
 
         <?php
         }

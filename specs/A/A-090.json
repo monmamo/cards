@@ -1,7 +1,7 @@
 {
     "name": "Five-Finger Discount",
     "card_type": "Draw",
-    "body_text": "Play a Vendor card. You may ignore any requirement to discard cards." ,
+    "body_text": ["Play a Vendor card.","You may ignore any requirement","to discard cards." ],
     "stats": null,
     "image": {
         "filename": null,
