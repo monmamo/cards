@@ -1,0 +1,21 @@
+{
+    "name": "Sniper",
+    "card_type": "Upkeep",
+    "body_text": 
+
+[
+"Choose a Monster, Master, Mobster or Bystander in play.",
+"Monster: That Monster takes damage.",
+"Others: If 1d4 is 1, Exile the card. Discard all cards attached to that card."
+],
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

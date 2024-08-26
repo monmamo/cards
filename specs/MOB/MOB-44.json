@@ -1,0 +1,15 @@
+{
+    "name": "Waste Manager",
+    "card_type": "Mobster",
+    "body_text": "This player does not have a discard pile. Put existing and henceforth  discards at the bottom of your Library.",
+    "stats": null,"subtypes":[],"integity":"1d6",
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

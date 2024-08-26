@@ -1,0 +1,15 @@
+{
+    "name": "Interceptor",
+    "card_type": "Mobster",
+    "body_text": "When another player plays a Vendor card, you may intervene. The opposing player must pay any cost associated with the draw, but you may use whatever benefit they would get for that cost.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

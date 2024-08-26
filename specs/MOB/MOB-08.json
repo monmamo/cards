@@ -1,0 +1,17 @@
+{
+    "name": "Consigliere",
+    "card_type": "Mobster",
+    "body_text": "Resolution phase: You may reroll any dice roll and take the result of either the original roll or the reroll.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": 
+"Member of a Crime Family. Advises the Don and resolves disputes within the family."
+    
+}
+

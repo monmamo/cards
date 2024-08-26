@@ -1,0 +1,17 @@
+{
+    "name": "Boss's Orders",
+    "card_type": "Bane",
+    "body_text":[ "You may use this card only if you have a Boss card in play.",
+
+    "This Monster may not use any Attack while it is in play."],
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

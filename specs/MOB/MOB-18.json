@@ -1,0 +1,14 @@
+{
+    "name": "Mean Boy",
+    "card_type": "Mobster",
+    "body_text": "While this card is in play, no Mascot cards may be played or remain in play.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}

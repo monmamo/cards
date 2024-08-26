@@ -1,0 +1,10 @@
+{
+    "name": "Nurse",
+    
+    "card_type": "Mobster",
+    "body_text": "Upkeep phase: Choose a Monster in play. Discard all cards other than Traits attached to that Monster.","Declaration phase: The Monster cannot attack, be attacked, or use any Skills.","Resolution phase: Remove all damage from the Monster.",
+    "integrity":"1d4","stats":"",
+    
+    "image":{"filename":"A188.png","ai":true}
+    
+  }

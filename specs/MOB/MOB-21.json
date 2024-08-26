@@ -1,0 +1,20 @@
+{
+    "name": "Motorcycle Gang monster L38",
+    "card_type": "Monster",
+    "body_text": "",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+"level": 38,
+"damage_capacity": 69,
+"size": 18,
+"speed": 10,
+    "flavor_text": null
+
+}
+

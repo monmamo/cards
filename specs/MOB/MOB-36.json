@@ -1,0 +1,15 @@
+{
+    "name": "Turf War",
+    "card_type": "Catastrophe",
+    "body_text": "Designate a Mobster group. Only Mobsters belonging to that group may remain in the Battlefield. Discard all Bystander cards on the Battlefield. No more Bystander cards can be played.",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

@@ -1,0 +1,15 @@
+{
+    "name": "Connected Guy",
+    "card_type": "Mobster",
+    "body_text": "",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": "An associate of a Crime Family."
+}
+

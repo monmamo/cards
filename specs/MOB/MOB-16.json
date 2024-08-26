@@ -1,0 +1,17 @@
+{
+    "name": "Mascot",
+    "card_type": "Mobster",
+    "body_text":[ "Each player may have one Mascot card in play.",
+"Resolution phase: Everyone else's Monster's attacks do 1d4 less damage."]
+,
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },"integrity":"1d4",
+    "flavor_text": null
+}
+

@@ -1,0 +1,15 @@
+{
+    "name": "Illicit Husbandry",
+    "card_type": "Facility",
+    "body_text": "",
+    "stats": null,"subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+
