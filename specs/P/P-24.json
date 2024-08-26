@@ -1,17 +1,20 @@
-
 {
     "name": "Training Center",
-    "card_type": "Environment","subtypes": null,
-    "body_text": "Resolution phase:: For each Attack where the Defense does not prevent all damage, add 3 damage.",
-    "stats": null,"subtypes":[],
+    "card_type": "Environment",
+    
+    "body_text": "Resolution phase: For each Attack where the Defense does not prevent all damage, add 3 damage.",
+    "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
     "flavor_text": null,
-    "_inspiration": ["Training Center PTCG card","https://bulbapedia.bulbagarden.net/wiki/Training_Center_(Furious_Fists_102)"]
-
+    "_inspiration": [
+        "Training Center PTCG card",
+        "https://bulbapedia.bulbagarden.net/wiki/Training_Center_(Furious_Fists_102)"
+    ]
 }

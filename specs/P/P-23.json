@@ -1,19 +1,18 @@
-
 {
     "name": "Sticky Floor",
     "card_type": "Environment",
-    "body_text": 
-    [
-"Upkeep phase:: This card may be removed by discarding a number of Water cards equal to the number of Monsters in play.",
-"Resolution phase:: Motion skills do/prevent only half of their damage."],
-
-    "stats": null,"subtypes":[],
+    "body_text": [
+        "Upkeep phase: This card may be removed by discarding a number of Water cards equal to the number of Monsters in play.",
+        "Resolution phase: Motion skills do/prevent only half of their damage."
+    ],
+    "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
     "flavor_text": "Just like an old movie theater."
 }

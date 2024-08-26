@@ -1,18 +1,21 @@
-
 {
     "name": "High Pressure System",
-    "card_type": "Environment","subtypes": ["Weather"],
+    "card_type": "Environment",
+    "subtypes": [
+        "Weather"
+    ],
     "body_text": [
-"Has no effect in an Enclosed Venue.",
-"Resolution phase:: Add 1d6 damage to any damage caused by a Water or Fire mana card."
-],
-    "stats": null,"subtypes":[],
+        "Has no effect in an Enclosed Venue.",
+        "Resolution phase: Add 1d6 damage to any damage caused by a Water or Fire mana card."
+    ],
+    "stats": null,
+    
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
     "flavor_text": null,
     "_inspiration": "High Pressure System PTCG card https://bulbapedia.bulbagarden.net/wiki/High_Pressure_System_(POP_Series_3_10)"
