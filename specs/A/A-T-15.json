@@ -1,8 +1,9 @@
 {
-      
     "name": "Brutality",
     "card_type": "Trait",
-    "body_text": "Resolution phase: When this Monster attacks, perform two rolls for every roll check.",
-    
+    "body_text": [
+        "Resolution phase: When this Monster attacks,",
+        "perform two rolls for every roll check."
+    ],
     "flavor_text": ""
-  }
+}

@@ -3,8 +3,8 @@
     "card_id": "A-196",
     "card_type": "Vendor",
     "body_text": "Search your deck for up to 3 Item cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-    "integrity":"1d6","stats":" ",
-    "image":"placeholder",
-    "image":{"filename":null,"ai":true},
-    
+    "integrity":"1d6",
+
+    "image":{"filename":null,"ai":true}
+
   }

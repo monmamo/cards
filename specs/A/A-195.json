@@ -3,8 +3,8 @@
     "card_id": "A-195",
     "card_type": "Vendor",
     "body_text": "Draw up to 3 cards. If you drew any cards in this way, discard an equal number of cards from your hand.",
-    "integrity":"1d6","stats":" ",
-    "image":"placeholder",
-    "image":{"filename":null,"ai":true},
-    
+    "integrity":"1d6",
+
+    "image":{"filename":null,"ai":true}
+
   }

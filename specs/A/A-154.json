@@ -2,8 +2,11 @@
     "name": "Mana Lottery",
     "card_type": "Draw",
     "body_text": "Discard two or more cards from your hand. Lay your hand aside. Draw twice as many cards as you discarded. You may reveal any Mana cards you draw and put them in your hand. Put the remaining cards at the bottom of your library, then shuffle your Library.",
-    
-    "image": "https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMonMaMo%2Ftcj0Y323Os.png?alt=media&token=3b81c74a-b37a-4dd4-97ab-b1806229d140",
-    "image":{"filename":null,"ai":true},
-    
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": "https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMonMaMo%2Ftcj0Y323Os.png?alt=media&token=3b81c74a-b37a-4dd4-97ab-b1806229d140",
+        "ai":true,
+        "prompt":null
+    }
   }

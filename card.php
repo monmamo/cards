@@ -24,7 +24,8 @@ $image = match (true) {
 
 $image_uri =     isset($image->filename) ? match (true) {
     str_starts_with( $image->filename,'http') => $image->filename,
-    file_exists("images/{$image->filename}") => 'data:image/jpg;base64,' . base64_encode(file_get_contents("images/{$image->filename}"))
+    file_exists("images/{$image->filename}") => 'data:image/jpg;base64,' . base64_encode(file_get_contents("images/{$image->filename}")),
+    default => null
 } : null;
 
 $image_svg = isset($image->svg) ? $image->svg : null;

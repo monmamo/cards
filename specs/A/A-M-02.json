@@ -8,6 +8,6 @@
     "size": 18,
     "level": 35,
     "damage_capacity": 80,
-    
+
     "image":{"filename":  "A-M-02.png","ai":true}
-},
+}
