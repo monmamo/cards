@@ -1,8 +1,8 @@
 {
     "name": "Fire Shield",
     "card_type": "Defense",
-    "body_text": "For each Fire card attached to this Monster, prevent 1d6 damage. Discard all Fire cards attached to this Monster (even if they weren't needed to prevent damage).",
+    "body_text": ["For each Fire card attached to this Monster,","prevent 1d6 damage. Discard all Fire cards","attached to this Monster (even if they weren't needed to prevent damage)."],
     "image": "AS05",
-    "stats": "Requires Pyros."
-    
+    "stats":["Requires Pyros."]
+
 }

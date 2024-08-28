@@ -2,7 +2,7 @@
     "name": "Grenade",
     "card_type": "Upkeep",
     "body_text": "Choose a Monster on the Battlefield. That Monster takes 2d4 damage. The other Monsters on that team take 1d4 damage.",
-    "stats": "Weapon",
+    "stats":["Weapon"],
     "image": {
         "filename": null,
         "credit": null,

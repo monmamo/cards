@@ -13,5 +13,5 @@
   "flavor_text": "Nice monster team you got there. Would be a shame if something happened to it.",
   "integrity": "1d4",
   "name": "Neighborhood \"Protection\"",
-  "stats": "Limit 1 on Battlefield among all players"
+  "stats":["Limit 1 on Battlefield among all players"]
 }

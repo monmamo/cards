@@ -133,7 +133,7 @@
             "name": "Familiar Bell",
             "card_type": "Draw",
             "body_text": "Search your Library for a Monster with the same name as a Monster in your Discard. Reveal that/those card(s). Put that/those card(s) in your hand. Shuffle your Library.",
-            "stats": "Item",
+            "stats":["Item"],
             "image": {
                 "filename": null,
                 "credit": null,

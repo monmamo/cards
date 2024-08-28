@@ -47,27 +47,15 @@ require 'init.php';
 </head>
 
 <?php
-function navlink($url, $label)
-{
-    echo <<<HTML
-<li><a  hx-get="$url"
-hx-trigger="click"
-hx-target="#left-section"
-hx-swap="innerHTML" class="dropdown-item" href="#">$label</a></li>
-HTML;
-}
-
 function echo_section_for_set(\CardSet $set)
 {
 ?>
-    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"  hx-boost="true" hx-target="#right-section" hx-swap="innerHTML">
         <?php
         foreach (iterate_cards(set: $set) as $card_id => $card_info) {
         ?>
-            <li><a hx-get="show.php?card_id=<?= $card_id ?>"
-                    hx-trigger="click"
-                    hx-target="#right-section"
-                    hx-swap="innerHTML" href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?> <?= $card_info->name ?? '' ?></a></li>
+            <li><a href="show.php?card_id=<?= $card_id ?>"
+ class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $card_id ?> <?= $card_info->name ?? '' ?></a></li>
         <?php } ?>
     </ul>
 <?php
@@ -78,7 +66,7 @@ function echo_section_for_set(\CardSet $set)
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Monsters Masters &amp; Mobsters</a>
+            <a class="navbar-brand" href="index.php">Monsters Masters &amp; Mobsters</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -122,17 +110,14 @@ function echo_section_for_set(\CardSet $set)
                     </li>
                     <li class="nav-item">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Decks</a>
-                        <ul class="dropdown-menu">
-                            <?php
-                            echo navlink("/deck.php?id=sdv-library", "SDV Library");
-                            echo navlink("/deck.php?id=sdv-monsters", "SDV Monsters");
-                            echo navlink("/deck.php?id=pdv-e", "PDV Electricty Starter");
-                            echo navlink("/deck.php?id=pdv-f", "PDV Fire Starter");
-                            echo navlink("/deck.php?id=pdv-w", "PDV Water Starter");
-                            ?>
+                        <ul class="dropdown-menu" hx-boost="true" hx-target="#left-section" hx-swap="innerHTML">
+                            <li><a class="dropdown-item" href="/deck.php?id=sdv-library">SDV Library</a></li>
+                            <li><a class="dropdown-item" href="/deck.php?id=sdv-monsters">SDV Monsters</a></li>
+                            <li><a class="dropdown-item" href="/deck.php?id=pdv-e">PDV Electricty Starter</a></li>
+                            <li><a class="dropdown-item" href="/deck.php?id=pdv-f">PDV Fire Starter</a></li>
+                            <li><a class="dropdown-item" href="/deck.php?id=pdv-w">PDV Water Starter</a></li>
                         </ul>
                     </li>
-
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -144,12 +129,13 @@ function echo_section_for_set(\CardSet $set)
 
     <main class="container-fluid">
         <div class="row">
-            <div class="col col-lg-3 flex-shrink-0 p-3" style="height: 1050px; overflow: auto" id="left-section">
+            <div class="col col-lg-3 flex-shrink-0 p-3" style="height: 1050px; overflow: auto" id="left-section" >
                 <?php
                 echo_section_for_set(\CardSet::Base);
                 ?>
             </div>
-            <div class="col col-lg-9" style="height: 1050px" id="right-section">
+            <div class="col col-lg-9" style="height: 1050px" id="right-section" hx-get="#"  hx-trigger="dblclick"
+            hx-target="#right-section">
                 <p>Card displays here.</p>
             </div>
         </div>
@@ -172,19 +158,6 @@ function echo_section_for_set(\CardSet $set)
 
         }
 
-        //        document.querySelectorAll('.card-link').forEach(link => {
-        //          link.addEventListener('click', async function(event) {
-        //          event.preventDefault();
-        //            await load(contentId = this.getAttribute('data-id'));
-        //      });
-        //   });
-
-        document.querySelectorAll('#right-section').forEach(div => {
-            div.addEventListener('dblclick', async function(event) {
-                event.preventDefault();
-                await load(contentId);
-            });
-        });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

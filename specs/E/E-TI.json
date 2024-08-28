@@ -1,7 +1,7 @@
 {
     "name": "Titanium",
     "card_type": "Mana",
-    "stats": "Material"
-    
+    "stats":["Material"]
+
 }
 

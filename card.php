@@ -23,7 +23,7 @@ $image = match (true) {
 };
 
 $image_uri =     isset($image->filename) ? match (true) {
-    str_starts_with( $image->filename,'http') => $image->filename,
+    str_starts_with($image->filename, 'http') => $image->filename,
     file_exists("images/{$image->filename}") => 'data:image/jpg;base64,' . base64_encode(file_get_contents("images/{$image->filename}")),
     default => null
 } : null;
@@ -35,6 +35,8 @@ $image_credit = match (true) {
     !isset($image->credit) => null,
     default => "Image by " . $image->credit,
 };
+
+$fullsize = $image->fullsize ?? false;
 
 $colors = match (true) {
     !isset($colors) => new \stdClass(),
@@ -72,7 +74,6 @@ header("Content-Type: image/svg+xml");
             fill: <?= $colors->flavor_text ?? 'white' ?>;
         }
 
-
         tspan.bodytext {
             font-style: normal;
             font-size: 30px;
@@ -85,8 +86,6 @@ header("Content-Type: image/svg+xml");
             margin: 5px;
         }
 
-
-
         tspan.smallrule {
             font-style: normal;
             font-size: 20px;
@@ -96,7 +95,6 @@ header("Content-Type: image/svg+xml");
             text-align: center;
             text-anchor: middle;
             fill: black;
-
         }
 
         .cardtype {
@@ -105,7 +103,6 @@ header("Content-Type: image/svg+xml");
             font-weight: 500;
             font-style: normal;
             fill: black;
-
         }
 
         .cardname {
@@ -122,6 +119,15 @@ header("Content-Type: image/svg+xml");
             display: block;
             text-align: center;
             height: 450px;
+        }
+
+        g.svg-icon {
+            position: absolute;
+            transform: translate(121px, 0);
+            margin: 0;
+            scale: 0.87890625;
+            fill: #ffffff;
+            fill-opacity: 1;
         }
     </style>
 
@@ -147,7 +153,7 @@ header("Content-Type: image/svg+xml");
 SVG;
 
     echo match (true) {
-        $image->fullsize ?? false => "<image href=\"$image_uri\" />",
+        $fullsize => $image_svg ?? "<image href=\"$image_uri\" />",
         default => $card_type_fqn::background() ?? $default_background
     };
     ?>
@@ -156,13 +162,9 @@ SVG;
 
     <svg id="main" x="50" y="50" width="650" height="950" viewBox="0 0 650 950">
 
-
         <?php
-        echo match (true) {
-            !is_null($image_uri) && !($image->fullsize ?? false) => "<image width=\"650\" height=\"450\" href=\"$image_uri\" />",
-            !is_null($image_svg) => $image_svg,
-            default => ''
-        };
+        if (!$fullsize)
+            echo $image_svg ??  "<image width=\"650\" height=\"450\" href=\"$image_uri\" />";
 
         $stats_recognized = [
             'integrity' =>  \Stats\Integrity::class,
@@ -171,7 +173,6 @@ SVG;
             'size' =>  \Stats\Size::class,
             'speed' =>  \Stats\Speed::class,
         ];
-
 
         $stats_found = [];
         foreach ($stats_recognized as $slug => $fqn) {
@@ -192,7 +193,7 @@ SVG;
             list($value, $fqn) = $data;
         ?>
             <g transform="translate(2,<?= STAT_ICON_HEIGHT * $index + 2 ?>) scale(0.09375)" fill="#000000" fill-opacity="1"><?= $fqn::icon() ?></g>
-            <text x="55" y="<?= STAT_ICON_HEIGHT * $index + 2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle" ><?= $value ?></text>
+            <text x="55" y="<?= STAT_ICON_HEIGHT * $index + 2 ?>" dy="27" font-size="40px" text-anchor="left" alignment-baseline="middle"><?= $value ?></text>
 
         <?php
         }

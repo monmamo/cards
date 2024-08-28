@@ -12,9 +12,12 @@ abstract class DrawType implements \CardType {
         yield "Discard this card after playing.";
     }
     public static function color():string|array{
-        return 'black';
+        return 'green';
     }
 
+    /**
+     * 512x512 original.
+     */
     public static function icon(): ?string {
         return
 <<<SVG

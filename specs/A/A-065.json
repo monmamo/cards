@@ -1,9 +1,15 @@
 {
-  "name": "Firebreath",
-  "card_type": "Trait",
-  "body_text": [
-    "Requires Pyros.",
-    "When this Monster attacks or defends and has one or more Fire Mana cards attached and is not already consuming Fire Mana, the defending or attacking Monster takes 1d6-1 damage. If the defending or attacking Monster takes any damage, discard one Fire Mana card from this Monster."
-  ],
-  "_": "https://www.notion.so/monmamo/Firebreath-570c6fc6a1b541928a7b4168293b2c6e?pvs=4#8b14c79fef304feaaacd808a2007baa7"
+    "name": "Firebreath",
+    "card_type": "Trait",
+    "body_text": [
+        "Requires Pyros.",
+        "When this Monster attacks or defends",
+        "& has one or more Fire Mana cards attached",
+        "& is not already consuming Fire Mana,",
+        "the defending or attacking Monster takes 1d6-1 damage.",
+        "If the defending or attacking Monster takes any damage,",
+        "discard one Fire Mana card from this Monster."
+    ],
+    "image": "AS07",
+    "_": "https://www.notion.so/monmamo/Firebreath-570c6fc6a1b541928a7b4168293b2c6e?pvs=4#8b14c79fef304feaaacd808a2007baa7"
 }

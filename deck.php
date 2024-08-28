@@ -21,13 +21,14 @@ extract($data);
 $total_count = 0;
 
 ?>
-<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+<script src="https://unpkg.com/htmx.org@2.0.2"></script>
+<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" hx-boost="true" hx-target="#right-section" hx-swap="innerHTML">
     <?php
     foreach ($cards as $card_id => $count) {
         $total_count += $count;
         $card_info = get_card_data(card_id:$card_id);
     ?>
-        <li><a href="#" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded" data-id="<?= $card_id ?>"><?= $count ?> <?= $card_id ?> <?= $card_info->name ?? '' ?> </a></li>
+        <li><a href="show.php?card_id=<?= $card_id ?>" class="card-link link-body-emphasis d-inline-flex text-decoration-none rounded"><?= $count ?> <?= $card_id ?> <?= $card_info->name ?? '' ?> </a></li>
     <?php } ?>
     <li>Total count <?= $total_count ?></li>
 </ul>

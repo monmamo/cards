@@ -8,5 +8,5 @@
     ],
     "image": "energosattack",
     "flavor_text": "",
-    "stats": "Requires Energos."
+    "stats":["Requires Energos."]
 }

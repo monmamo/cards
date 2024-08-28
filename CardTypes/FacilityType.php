@@ -2,7 +2,7 @@
 
 namespace CardTypes;
 
-abstract class FacilityType implements \CardType {
+abstract class FacilityType extends PlaceType {
 
     public static function title(): string {
         return 'Facility';
@@ -15,15 +15,4 @@ abstract class FacilityType implements \CardType {
         return new \EmptyIterator;
     }
 
-    public static function icon(): ?string {
-        return null;
-// <<<SVG
-// SVG;
-    }
-
-    public static function background(): ?string {
-        return
-<<<SVG
-SVG;
-}
 }

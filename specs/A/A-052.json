@@ -3,9 +3,9 @@
     "card_type": "Attack",
     "body_text": [
         "Does Multiplier x d4 damage.",
-        "If the Defender's Defense fails to prevent all damage,",
-        "it has no effect. The Defending Monster",
-        "can no longer use Defenses",
+        "If the Defender's Defense fails to prevent all",
+        "damage, it has no effect. The Defending",
+        "Monster can no longer use Defenses",
         "while this Monster uses Deathgrip on it."
     ],
     "stats": null,

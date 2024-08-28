@@ -1,7 +1,7 @@
 {
     "name": "Nickel",
     "card_type": "Mana",
-    "stats": "Material"
-    
+    "stats":["Material"]
+
 }
 
