@@ -1,0 +1,96 @@
+{
+    "name": "Banes and Catastrophes",
+    "unassigned": [
+        {
+            "name": "Anarchy",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Hyperhidrosis",
+            "card_type": "Bane",
+            "body_text": "",
+            "flavor_text": "Excessive sweating."
+        },
+        {
+            "name": "Imposter Syndrome",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Infestation",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Insanity",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Diarrhea",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Economic Collapse",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Epidemic",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Famine",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Flood",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Forest Fire",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Hurricane",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Invasion",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Nuclear Meltdown",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Plague",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Tornado",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Tsunami",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        },
+        {
+            "name": "Volcano",
+            "card_type": "Catastrophe",
+            "body_text": ""
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Cresting Wave",
+    "card_type": "Attack",
+    "body_text": [
+        "Requires Aquos.",
+        "Can be used only at an Ocean.",
+        "Summons a large wave, carrying the force of the ocean to sweep away opponents."
+    ]
+}

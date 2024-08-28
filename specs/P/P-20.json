@@ -1,18 +1,19 @@
 {
-    "name": "Cemetary",
-    "card_type": "Place",
-    "body_text": [
-      "Whenever any player attaches a Mana card",
-      "from their hand to one",
-      "of their Monsters, if the",
-      "Monster does not have Psychos or Gouros,",
-      "that Monster takes 4 damage."
-    ],
-    "image": {
-      "filename": "A029.jpg",
-      "credit": "freepik",
-      "source": null,
-      "ai": false,
-      "prompt": null
-    },"flavor_text":"Not for the faint of heart."
-  }
+  "name": "Cemetery",
+  "card_type": "Place",
+  "body_text": [
+    "Whenever any player attaches a Mana card",
+    "from their hand to one",
+    "of their Monsters, if the",
+    "Monster does not have Psychos or Gouros,",
+    "that Monster takes 4 damage."
+  ],
+  "image": {
+    "filename": "A029.jpg",
+    "credit": "freepik",
+    "source": "https://www.freepik.com/free-photo/composition-with-tombstones-hill_2816936.htm#fromView=search&page=1&position=5&uuid=975e765d-8c5f-44fd-9c44-5c9b77dd156e",
+    "ai": false,
+    "prompt": null
+  },
+  "flavor_text": "Not for the faint of heart."
+}

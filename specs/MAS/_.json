@@ -80,6 +80,127 @@
                 "prompt": null
             },
             "flavor_text": null
+        },
+        {
+            "name": "Chest Thrust",
+            "card_type": "Attack",
+            "flavor_text": "Punch to the torso."
+        },
+        {
+            "name": "Blade Arms",
+            "card_type": "Trait",
+            "body_text": "",
+            "flavor_text": "Adds a slashing effect to Pounce and physical attacks."
+        },
+        {
+            "name": "Do the Wave",
+            "card_type": "Attack",
+            "body_text": "GROUP ATTACK. Does Xd4 where X is the number of Monsters you have in play."
+        },
+        {
+            "name": "Drive Off",
+            "card_type": "Skill",
+            "body_text": [
+                "This Skill cannot be used if this Monster is",
+                "Confused, Paralyzed, Hypnotized or Asleep",
+                "at the Declaration phase.",
+                "Declaration phase: Choose one opposing Monster.",
+                "Resolution phase: If this Monster was not",
+                "attacked during this turn and the",
+                "chosen Monster was not Knocked Out,",
+                "your opponent must discard that Monster",
+                "and all cards attached to it. You must then discard this Monster and all cards attached to it."
+            ],
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null,
+            "_inspiration": "Light Arcanine \"Drive Off\" power"
+        },
+        {
+            "name": "Face Thrust",
+            "card_type": "Attack",
+            "Set": "Master Trainer Card Set (https://www.notion.so/Master-Trainer-Card-Set-33603b004b574265b8b68ecabca3a768?pvs=21)",
+            "flavor_text": "Punch to the face."
+        },
+        {
+            "name": "Familiar Bell",
+            "card_type": "Draw",
+            "body_text": "Search your Library for a Monster with the same name as a Monster in your Discard. Reveal that/those card(s). Put that/those card(s) in your hand. Shuffle your Library.",
+            "stats": "Item",
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null,
+            "_inspiration": [
+                "Familiar Bell PTCG card",
+                "https://bulbapedia.bulbagarden.net/wiki/Familiar_Bell_(Darkness_Ablaze_161)"
+            ]
+        },
+        {
+            "name": "Financial Planner",
+            "card_type": "Vendor",
+            "body_text": "Shuffle 1d4 discarded cards of your choice into your Library. You may take another Draw phase."
+        },
+        {
+            "name": "Forehead Strike",
+            "card_type": "Attack",
+            "flavor_text": "Vertical knifehand strike to the head."
+        },
+        {
+            "name": "Headside Strike",
+            "card_type": "Attack",
+            "flavor_text": "Diagonal knifehand strike to the side of the head or neck."
+        },
+        {
+            "name": "High Block",
+            "body_text": ""
+        },
+        {
+            "name": "Low Block",
+            "body_text": ""
+        },
+        {
+            "name": "Nonresistance",
+            "card_type": "Defense",
+            "body_text": [
+                "Prevent 1d% damage.",
+                "The attacking Monster takes the amount of Damage prevented."
+            ]
+        },
+        {
+            "name": "Proper Warmup",
+            "card_type": "Trait",
+            "subtypes": "Setup",
+            "body_text": [
+                "Speed +3.",
+                "If this Monster is Knocked Out, discard this card."
+            ]
+        },
+        {
+            "name": "Tickle",
+            "card_type": "Attack",
+            "body_text": "Does 3xSpeed damage.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
         }
     ]
 }

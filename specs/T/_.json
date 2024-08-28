@@ -1,0 +1,114 @@
+{
+    "name": "Traits and Abilities",
+    "unassigned": [
+        {
+            "name": "Air Strike",
+            "card_type": "Attack",
+            "body_text": ""
+        },
+        {
+            "name": "Ambush",
+            "card_type": "Attack",
+            "subtype": [
+                "Group Attack"
+            ],
+            "body_text": ""
+        },
+        {
+            "name": "Ankle Biter",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Antennae",
+            "card_type": "Trait",
+            "body_text": "",
+            "Tags": "incomplete"
+        },
+        {
+            "name": "Arcana Intelligence",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Asexuality",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Barkskin",
+            "card_type": "Trait",
+            "body_text": "",
+            "Tags": "incomplete"
+        }{
+            "name": "Calm",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Charisma",
+            "card_type": "Trait",
+            "body_text": "Resolution phase:: If this Monster attacks and the targeted Monster uses a Defense, reduce the damage prevented by 1d6."
+        },
+        {
+            "name": "Fetor",
+            "card_type": "Trait",
+            "body_text": [
+                "Fetor Strength: 1d6",
+                "(rolled at attach; can be increased by Power Up)",
+                "Reduce damage done by any",
+                "Monsters' Attacks by Fetor Strength.",
+                "Reduce damage prevented by any",
+                "Monsters' Defenses by Fetor Strength."
+            ],
+            "image": {
+                "filename": "https://www.freepik.com/free-vector/boy-with-bad-breath-cartoon-character_19734647.htm#fromView=search&page=1&position=18&uuid=b8d1044b-7fd0-4b95-b59a-32d51461ba3f",
+                "credit": "brgfx on Freepik",
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": ""
+        },
+        {
+            "name": "Fragrance",
+            "card_type": "Trait",
+            "body_text": [
+                "Fragrance Strength: 1d6",
+                "(rolled at attach; can be increased by Power Up)",
+                "Reduce damage done by any",
+                "Monsters' Attacks by Fragrance Strength.",
+                "Reduce damage prevented by any",
+                "Monsters' Defenses by Fragrance Strength."
+            ],
+            "image": null,
+            "flavor_text": ""
+        },
+        {
+            "name": "Intimidation",
+            "card_type": "Trait",
+            "body_text": "Resolution phase: This Monster cannot use any Defenses, but prevents 1dSize damage if not Paralyzed, Hypnotized or Asleep.",
+            "stats": null,
+            "subtypes": [],
+            "flavor_text": null
+        },
+        {
+            "name": "Night Owl",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Rubberism",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Therapeudic Dander",
+            "card_type": "Trait",
+            "body_text": [
+                "Requires Floros.",
+                "Upkeep phase:: Remove 1d4 damage from each Monster in play (both yours and your opponents')."
+            ]
+        }
+    ]
+}
