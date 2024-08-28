@@ -1,6 +1,6 @@
 {
   "name": "Agility",
-  "card_id": "A-003",
+  
   "card_type": "Trait",
   "body_text":[ "Speed +1d6 (rolled when attached", "to the Monster)."]
 }

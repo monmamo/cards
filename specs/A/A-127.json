@@ -1,9 +1,16 @@
 {
     "name": "Hypnotic Drone",
-    "card_id": "A-127",
     "card_type": "Drone",
-    "body_text": "If an opponent's Moster, Master, Mobster or Bystander attempts any attack, defense, skill or effect, you may choose to roll 1d6. If 1 or 2, that move has no effect.",
-"speed":10,"size":10,"damage_capacity":20,      
-    "image":{"filename":"A127.jpg","ai":true}
-    
-  }
+    "body_text": [
+        "If an opponent's Moster, Master, Mobster or Bystander",
+        "attempts any attack, defense, skill or effect,",
+        "you may choose to roll 1d6. If ⚀⚁, that move has no effect."
+    ],
+    "speed": 10,
+    "size": 10,
+    "damage_capacity": 20,
+    "image": {
+        "filename": "A127.jpg",
+        "ai": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Biting",
+    "card_type": "Trait",
+    "body_text": [
+        "Size +1.",
+        "Gives this Monster the \"Bite\" Attack which does Speed×3 damage."
+    ],
+    "_": "https://pixabay.com/vectors/monster-the-character-scarecrow-4446946/"
+}

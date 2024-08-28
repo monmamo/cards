@@ -1,10 +1,14 @@
 {
-    "name": "Grab Bag",
-    "card_id": "A-108",
-    "card_type": "Draw",
-    "body_text": ["Reveal the top 7 cards of your Library.","You may put any Item cards in your hand.","Discard the rest."],
-    
-    
-    "image":{"filename":"A108.jpg","credit":"Shutterstock #2348597925"}
-    
+  "name": "Grab Bag",
+  
+  "card_type": "Draw",
+  "body_text": [
+    "Reveal the top 7 cards of your Library.",
+    "You may put any Item cards in your hand.",
+    "Discard the rest."
+  ],
+  "image": {
+    "filename": "A108.jpg",
+    "credit": "Shutterstock #2348597925"
   }
+}

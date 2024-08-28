@@ -2,7 +2,7 @@
     "name": "Acid",
     "card_type": "Mana",
     "body_text": null,
-    "stats": null,
+    "stats": null,"subtypes":[],
     "image": {
         "filename": null,
         "credit": null,

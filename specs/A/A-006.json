@@ -1,6 +1,6 @@
 {
   "name": "Biting",
-  "card_id": "A-006",
+  
   "card_type": "Trait",
   "body_text": ["Gives this Monster the \"Bite\" Attack","which does Speed×3 damage."],
   "image": {

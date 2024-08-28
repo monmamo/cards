@@ -1,9 +1,15 @@
 {
-    "name": "Shopping Center",
-    "card_id": "A-246",
-    "card_type": "Place",
-    "body_text": "Draw phase: Each player may search their Library for a Vendor card and play it immediately (shuffling their Library afterward). Then they may take another Draw phase.",
-    
-    "image":{"filename":"A246.jpeg","ai":true},
-    
+  "name": "Shopping Center",
+  "card_type": "Place",
+  "body_text": [
+    "Draw phase: Each player may search",
+    "their Library for a Vendor card and play it",
+    "immediately (shuffling their Library afterward).",
+    "Then they may take another Draw phase."
+  ],
+  "image": {
+    "filename": "A246.jpeg",
+    "ai": true,
+    "_": "https://www.notion.so/monmamo/Shopping-Center-80a8d2a9d3764546a36f9bcea642fe4f?pvs=4#ee8b43f87ad949578920750b1fc2fe8b"
   }
+}

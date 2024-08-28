@@ -1,0 +1,18 @@
+{
+    "name": "Unknown Allergen",
+    "card_type": "Bane",
+    "body_text": [
+        "Resolution phase: For 1d6 turns,",
+        "once all other effects have been resolved,",
+        "this Monster takes 1d6 damage."
+    ],
+    "stats": null,
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": null
+}

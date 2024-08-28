@@ -1,0 +1,10 @@
+{
+    "name": "Burglary",
+    "card_type": "Draw",
+    "body_text": [
+        "Choose an opponent.",
+        "Choose 1d4 cards from his hand",
+        "(without looking at them).",
+        "He must discard those cards."
+    ]
+}

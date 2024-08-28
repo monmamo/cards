@@ -1,0 +1,15 @@
+{
+    "name": "Grotesque Mouth",
+    "card_type": "Trait",
+    "body_text": [
+        "Size +1.",
+        "Gives this Monster the \"Bite\" Attack",
+        "which does Speed×3 damage."
+    ],
+    "image": {
+        "filename": "AT25",
+        "credit": "Adobe Stock #2910609",
+        "source": ""
+    },
+    "flavor_text": ""
+}

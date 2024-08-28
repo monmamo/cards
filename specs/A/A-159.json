@@ -4,7 +4,7 @@
     "card_type": "Vendor",
     "body_text": [
         "You may do one of the following:",
-        "- Put a basic Mana card from your Refuse into your Hand.",
+        "- Put a basic Mana card from your Discard into your Hand.",
         "- Shuffle 3 basic Mana cards from your Discard pile into your Library."
     ],
     "integrity": "1d4",

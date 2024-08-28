@@ -1,7 +1,9 @@
 {
-    "name": "Product Recall",
-    "card_id": "A-201",
-    "card_type": "Draw",
-    "body_text": "Choose one of your opponents. That opponent reveals his or her hand and shuffles all Item cards found there into his or her Library. Then, draw a number of cards equal to the number of Item cards your opponent shuffled into his or her Library.",
-    
-  }
+  "name": "Product Recall",
+  "card_type": "Draw",
+  "body_text": [
+    "Choose one of your opponents.",
+    "That opponent reveals his or her hand and shuffles all Item cards found there into his or her Library.",
+    "Then, draw a number of cards equal to the number of Item cards your opponent shuffled into his or her Library."
+  ]
+}

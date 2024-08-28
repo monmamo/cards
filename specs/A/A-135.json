@@ -1,13 +1,16 @@
 {
     "name": "Investment",
     "card_type": "Draw",
-    "body_text": "Put any number of cards facedown on the table. At the Resolution Phase of this turn, draw 1d6-1 cards for each facedown card. Discard the facedown cards.",
+    "body_text": [
+        "Put any number of cards facedown on the Battlefield.",
+        "At the Resolution Phase of this turn,",
+        "draw 1d6-1 cards for each facedown card.",
+        "Discard the facedown cards."
+    ],
     "image": {
         "filename": "A135.jpg",
-        "credit":"photoroyalty on Freepik",
+        "credit": "photoroyalty on Freepik",
         "source": "https://www.freepik.com/free-vector/time-is-money-background_1014317.htm"
     },
-
-      "flavor_text": ""
-
-  }
+    "flavor_text": "Past performance is not indicative of future results."
+}

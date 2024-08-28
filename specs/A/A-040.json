@@ -1,19 +1,14 @@
 {
-  "name": "Convenience Store",
-  "card_id": "A-040",
+  "name": "Hardware Store",
   "card_type": "Vendor",
-  "body_text": [
-    "Discard 1d4 cards from your hand.",
-    "Search your Library for one Consumable card. ",
-    "Reveal it, then put it in your hand.",
-    "Shuffle your library.",
-    "You may perform another Draw phase action."
-  ],
-  "integrity": "1d6",
-
-  "flavor_text": "The quick stop for all your needs.",
+  "body_text": "Discard any number of cards from your hand. For each card that you discarded, search your Library for a [[Durable]] card. Reveal them, then put them in your hand. Shuffle your library.",
+  "stats": null,"subtypes":[],
   "image": {
-    "filename": "A040.png",
-    "ai": true
-  }
+      "filename": null,
+      "credit": null,
+      "source": null,
+      "ai":false,
+      "prompt":null
+  },
+  "flavor_text": null
 }

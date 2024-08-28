@@ -1,0 +1,15 @@
+{
+    "name": "Junk from the Trunk",
+    "card_type": "Draw",
+    "body_text": "Put an Item card from your Discard into your Library.",
+    "stats": null,
+    "subtypes": [],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": null
+}

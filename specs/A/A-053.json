@@ -1,14 +1,9 @@
 {
-    "name": "Deception",
+    "name": "Brutality",
     "card_type": "Trait",
-    "body_text": "Resolution phase: If this Monster uses a Defense, add 4 to any roll. (For example, 1d6 becomes 1d10.)",
-    "stats": null,
-    "image": {
-        "filename": null,
-        "credit": null,
-        "source": null,
-        "ai":false,
-        "prompt":null
-    },
-    "flavor_text": null
+    "body_text": [
+        "Resolution phase: When this Monster attacks,",
+        "perform two rolls for every roll check."
+    ],
+    "flavor_text": ""
 }

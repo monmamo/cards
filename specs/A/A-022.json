@@ -1,0 +1,7 @@
+{
+    "name": "Achievement",
+    "card_type": "Trait",
+    "body_text": [
+        "Resolution phase: This Monster's Attack does 4 more damage.","This Monster's Defense does 4 more damage."
+    ]
+}

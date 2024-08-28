@@ -1,0 +1,19 @@
+{
+    "name": "Slow Start",
+    "card_type": "Trait",
+    "body_text": [
+        "This card can be attached to a Monster only during the Setup Phase.",
+        "During the first round of turns, this Monster's Speed is halved and Attacks do half as much damage.",
+        "During subsequent turns, Speed +2 and Attacks do 2 additional damage."
+    ],
+    "stats": null,
+    "subtypes": [],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": null
+}

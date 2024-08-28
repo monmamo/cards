@@ -1,0 +1,8 @@
+{
+    "name": "Shuffle and Draw 3",
+    "body_text": [
+        "Shuffle your hand into your Library.",
+        "Then draw 3 cards."
+    ],
+    "card_type": "Draw"
+}

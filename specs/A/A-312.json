@@ -9,11 +9,12 @@
     "image": {
         "filename": "A312.jpg",
         "credit": "catalyststuff on Freepik",
-        "source": ""
+        "source": "https://www.freepik.com/free-vector/flying-drone-camera-cartoon-vector-icon-illustration-object-technology-icon-concept-isolated-flat_25847529.htm"
     },
     "name": "Spy Drone",
     "size": 4,
     "speed": 20,
+    "level": 5,
     "stats": [
         "Item"
     ]

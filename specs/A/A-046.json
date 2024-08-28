@@ -1,0 +1,8 @@
+{
+    "name": "Benevolence",
+    "card_type": "Trait",
+    "body_text": [
+        "Damage done to defender: -1d6",
+        "Damage prevented: +1d6"
+    ]
+}

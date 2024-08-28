@@ -1,18 +1,13 @@
 {
-  "name": "Cemetary",
-  "card_type": "Place",
-  "body_text": [
-    "Whenever any player attaches a Mana card",
-    "from their hand to one",
-    "of their Monsters, if the",
-    "Monster does not have Psychos or Gouros,",
-    "that Monster takes 4 damage."
-  ],
-  "image": {
-    "filename": "A029.jpg",
-    "credit": "freepik",
-    "source": null,
-    "ai": false,
-    "prompt": null
-  },"flavor_text":"Not for the faint of heart."
+    "name": "Oozing Effluvia",
+    "card_type": "Trait",
+    "body_text": "Dodge prevents Size damage instead of Speed.",
+    "image": {
+        "filename": "AT31",
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": ""
 }

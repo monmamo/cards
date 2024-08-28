@@ -3,7 +3,7 @@
     "card_type": "Draw",
     "body_text": ["Draw a card.","You may take another Draw phase."]
     ,
-    "stats": null,
+    "stats": null,"subtypes":[],
     "image": {
         "filename": null,
         "credit": null,

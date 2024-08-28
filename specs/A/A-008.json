@@ -1,7 +1,7 @@
 {
     "_": "A person who collects money, as for racketeers.",
     "name": "Bagman",
-    "card_id": "A-008",
+    
     "card_type": "Vendor",
     "body_text": [
         "You may play this card only if you have a",

@@ -1,0 +1,6 @@
+{
+    "name": "Basic Lure",
+    
+    "card_type": "Lure",
+    "body_text": "Flip a coin. If heads, you may search your Library for a Monster card. Reveal that/those card(s). Put that/those card(s) in your hand."
+}

@@ -1,9 +1,6 @@
 {
-    "name": "Refurbish",
-    "card_id": "A-215",
-    "card_type": "Draw",
-    "body_text": "Shuffle up to three Item cards from your Discard pile into your Library.",
-    
-    "image":"A212.jpg"
-    
-  }
+  "name": "Refurbish",
+  "card_type": "Draw",
+  "body_text": "Shuffle up to three Item cards from your Discard pile into your Library.",
+  "image": "A212.jpg"
+}

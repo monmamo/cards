@@ -1,10 +1,16 @@
 {
-    "name": "Pawn Shop",
-    "card_id": "A-192",
-    "card_type": "Vendor",
-    "body_text": "You may do one of the following:","- Discard three cards from your hand. Search your Library for one Durable cards. Reveal any cards you select, then put them in your hand. Shuffle your library.","- Discard a Durable card to draw two cards.",
-    "integrity":"1d4",
-
-    "image":{"filename":"A192.jpg","ai":true}
-
-  }
+  "name": "Pawn Shop",
+  "card_type": "Vendor",
+  "body_text": [
+    "You may do one of the following:",
+    "- Discard three cards from your hand. Search your Library for one Durable cards. Reveal any cards you select, then put them in your hand. Shuffle your library.",
+    "- Discard a Durable card to draw two cards."
+  ],
+  "integrity": "1d4",
+  "stats": " ",
+  "image": {
+    "filename": "A192.jpg",
+    "ai": true
+  },
+  "_": "Get an icon from Noun Project"
+}

@@ -1,8 +1,9 @@
 {
     "name": "Gather Fire",
-    
     "card_type": "Draw",
-    "body_text": "Transfer a Fire Mana card from your Discard pile to one of your Pyros Monsters.",
+    "body_text": [
+        "Transfer a Fire Mana card from your Discard",
+        "pile to one of your Pyros Monsters."
+    ],
     "image": "a310"
-    
 }

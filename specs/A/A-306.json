@@ -7,10 +7,12 @@
     "flavor_text": "Ouuuuuch....",
     "image": {
         "filename": "A306.jpeg",
-        "ai": true
+        "source": "unknown",
+        "ai": true,
+        "_": "https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMonMaMo%2F0lqNV7_F94.jpeg?alt=media&token=78f7b026-4cd1-49a6-8fc0-2c1d2692f962"
     },
     "name": "Tranquilizer Dart",
     "stats": [
-        "Item"
+        "Item","Weapon"
     ]
 }

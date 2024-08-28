@@ -1,0 +1,15 @@
+{
+    "name": "Laundry",
+    "card_type": "Draw",
+    "body_text": "Shuffle all discarded Wearable cards into your Library.",
+    "stats": null,
+    "subtypes": [],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": null
+}

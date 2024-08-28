@@ -1,6 +1,9 @@
 {
-    "name": "Reconnaissance Team",
-    "card_type": "Draw",
-    "body_text": "Discard up to 2 Monster cards from your hand. Draw 3 cards for each card you discarded in this way."
-    
-  }
+  "name": "Reconnaissance Team",
+  "card_type": "Draw",
+  "body_text": [
+    "Discard up to 2 Monster cards from your hand.",
+    "Draw 3 cards for each card",
+    "you discarded in this way."
+  ]
+}

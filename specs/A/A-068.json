@@ -1,21 +1,5 @@
 {
-    "name": "Duststorm",
-    "card_type":"Environment",
-    "body_text": [
-"Does not apply to closed Venues.",
-"All players put their hands face down when this card is played. ",
-"While this card is in play, all hands remain facedown unless a rule of this card allows the player to view them. Any cards drawn during this phase must be placed facedown.",
-"Upkeep phase: You may pick up 1d6 cards.",
-"Resolution phase: You must put all but 1d4 cards face down."
-
-    ],
-    "stats": null,
-    "image": {
-        "filename": null,
-        "credit": null,
-        "source": null,
-        "ai":false,
-        "prompt":null
-    },
-    "flavor_text": null
+    "name": "Gelatinous Flesh",
+    "card_type": "Trait",
+    "body_text": ""
 }

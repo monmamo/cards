@@ -1,0 +1,7 @@
+{
+    "name": "Cologne",
+    
+    "card_type": "Upkeep",
+    "body_text": ["Attach to a Monster.","For 1d4 turns, this Monster","cannot be the target of an Attack."],
+    "_inspiration": "https://bulbapedia.bulbagarden.net/wiki/Canceling_Cologne_(Astral_Radiance_136)"
+}

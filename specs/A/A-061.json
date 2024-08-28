@@ -1,0 +1,11 @@
+{
+  "name": "Dire Form",
+  "card_type": "Trait",
+  "body_text": "Size +5. Speed +3.",
+  "image": {
+    "filename": "AT21",
+    "credit": "freepik",
+    "source": "https://www.freepik.com/free-vector/hand-drawn-werewolf-silhouette_59740170.htm#fromView=search&page=1&position=1&uuid=50b539cb-63e4-451d-aa61-6811d7513b9a"
+  },
+  "flavor_text": ""
+}

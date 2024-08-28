@@ -1,0 +1,16 @@
+{
+    "name": "Masseuse",
+    "card_type": "Bystander",
+    "body_text": "Resolution phase: After all attacks and skills are resolved, remove 4 damage from each of your Monsters that is not Knocked Out.",
+    "stats": null,
+    "subtypes": [],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "integrity": "1d6",
+    "flavor_text": null
+}

@@ -1,5 +1,8 @@
 {
-  "body_text": "Each player, including you, may choose to draw a card. Then you may take another Draw phase.",
+  "body_text": [
+    "Each player, including you, may choose to",
+    "draw a card. Then you may take another Draw phase."
+  ],
   "card_type": "Draw",
   "flavor_text": "Your favorite monster sports club had a great day on the field. Let's celebrate!",
   "image": {

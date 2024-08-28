@@ -1,0 +1,9 @@
+{
+    "name": "Absorb Water",
+    
+    "card_type": "Trait",
+    "body_text": [
+        "Requires Aquos.",
+        "If hit by an Attack that results in the attacker discarding Water, attach those cards to this Monster. (When those cards are discarded, they go to the Discard of the player who owns them.)"
+    ]
+}

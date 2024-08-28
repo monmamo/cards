@@ -1,15 +1,19 @@
 {
     "name": "Creepy Guy in the Alley",
     "card_type": "Vendor",
-    "body_text": "Draw two cards from the bottom of your Library.",
+    "body_text": ["Draw two cards","from the bottom of your Library."],
     "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
+    "integrity": "1d4",
     "flavor_text": null,
-    "_inspiration":[ "Looker PTCG card"  ,"https://bulbapedia.bulbagarden.net/wiki/Looker_(Ultra_Prism_152)"]
+    "_inspiration": [
+        "https://bulbapedia.bulbagarden.net/wiki/Looker_(Ultra_Prism_152)"
+    ]
 }

@@ -1,0 +1,7 @@
+{
+    "name": "Breeder",
+    
+    "card_type": "Vendor",
+    "body_text": "Search your Library for a Monster card. Put that card in your hand. ",
+    "integrity": "1d4"
+}

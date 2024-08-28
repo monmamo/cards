@@ -1,0 +1,8 @@
+{
+    "name": "99 Red Balloons",
+    "card_type": "Durable",
+    "body_text": [
+        "Put this card in the Battlefield.",
+        "Resolution phase: For each Defense, roll 1d6. If 1, the Defense does nothing."
+    ]
+}

@@ -1,9 +1,12 @@
 {
-    "name": "Inappropriate Traffic Stop",
-    "card_id": "A-129",
-    "card_type": "Draw",
-    "body_text": "Look at the top 5 cards of your opponent's deck and discard any number of Item cards you find there. Your opponent shuffles the other cards back into their deck.",
-    
-    "image":null
-    
-  }
+  "name": "Inappropriate Traffic Stop",
+  "card_type": "Draw",
+  "body_text": [
+    "Look at the top 5 cards of any Library",
+    "and discard any number of Item cards you find there.",
+    "The owner of the Library shuffles",
+    "the other cards back into their deck."
+  ],
+  "image": null,
+  "flavor_text": "Also called \"airport security\"."
+}

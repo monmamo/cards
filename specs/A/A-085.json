@@ -1,14 +1,7 @@
 {
-  "name": "Fetor",
-  "card_type": "Trait",
-  "body_text": [
-    "Fetor Strength: 1d6",
-    "(rolled at attach; can be increased by Power Up)",
-    "Reduce damage done by any",
-    "Monsters' Attacks by Fetor Strength.",
-    "Reduce damage prevented by any",
-    "Monsters' Defenses by Fetor Strength."
-  ],
-  "image": null,
-  "flavor_text": ""
-}
+    "name": "Tackling",
+    
+    "card_type": "Trait",
+    "body_text": "When this Monster uses Pounce or a physical attack, the attack does an additional Speed damage to the defending Monster. After that damage is resolved, this Monster takes Speed damage."
+
+  }

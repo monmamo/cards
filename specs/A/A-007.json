@@ -1,0 +1,15 @@
+{
+    "name": "Spy",
+    "card_type": "Mobster",
+    "body_text": "Upkeep phase: You may look at a random card from any Library. Do not reveal the card to anyone else or change its location in the Library.",
+    "stats": "No limit on battlefield","subtypes":[],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai":false,
+        "prompt":null
+    },
+    "flavor_text": null
+}
+

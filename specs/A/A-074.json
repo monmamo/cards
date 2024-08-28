@@ -1,15 +1,21 @@
 {
     "name": "Equalizer 2",
     "card_type": "Draw",
-    "body_text":[ "Each player either draws or discards","until he or she has 5 cards","in his or her hand.","(Your opponent does this first.)"],
+    "body_text": [
+        "Each player either draws or discards",
+        "until he or she has 5 cards",
+        "in his or her hand.",
+        "(Your opponent does this first.)"
+    ],
     "stats": null,
+    "subtypes": [],
     "image": {
         "svg": "<g transform=\"translate(100 75) scale(0.531 0.425)\" ><path d=\"M9 756l0 -262 828 0 0 262 -828 0zm0 -403l0 -263 828 0 0 263 -828 0z\" fill=\"#ffffff\" fill-opacity=\"50%\"/></g><text x=\"50%\" y=\"360\" font-family=\"Roboto\" text-anchor=\"middle\"  font-size=\"300\" font-weight=\"700\" fill=\"#ffffff\" xml:space=\"preserve\">2</text>",
         "credit": "amantaka from Noun Project",
         "source": "https://thenounproject.com/browse/icons/term/equals/",
-        "ai":false,
-        "_original_width":847,
-        "_original_height":1058.75
+        "ai": false,
+        "_original_width": 847,
+        "_original_height": 1058.75
     },
     "flavor_text": null
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Alertness",
+  
+  "card_type": "Trait",
+  "body_text": [
+    "Resolution phase: Add Speed/2 (rounded down)",
+    "to all Attacks and Defenses."
+  ],
+  "image": {
+    "filename": "AT03",
+    "credit": "freepik",
+    "source": "https://www.freepik.com/free-vector/cartoon-eyes_763685.htm"
+  },
+  "flavor_text": ""
+}

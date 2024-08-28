@@ -1,0 +1,6 @@
+{
+    "name": "Biolure",
+    
+    "card_type": "Trait",
+    "body_text": "When not your turn, roll 1d6 for each Monster in play until you get 5 or 6. The selected Monster cannot attack any other Monster on this turn."
+}

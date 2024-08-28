@@ -1,10 +1,12 @@
 {
   "body_text": [
-    "A player may have any number of Cheerleaders","on the Battlefield.",
-    "Resolution phase: Your Monster’s Attacks","do an additional 1d4 damage."
+    "A player may have any number of Cheerleaders",
+    "on the Battlefield.",
+    "Resolution phase: Your Monster’s Attacks",
+    "do an additional 1d4 damage."
   ],
   "card_type": "Bystander",
-  "flavor_text": "Go team go!",
+  "flavor_text": "Go, go, go team go!",
   "image": {
     "filename": "A032.jpg",
     "credit": "freepik",
