@@ -2,12 +2,12 @@
     "name": "Aquos Monster L45",
     "card_id": "A-M-04",
     "card_type": "Monster",
-    "sex": "male",
+    "subtypes":["Male"],
     "taxons": ["Aquos", "TODO"],
     "speed": 10,
     "size": 25,
     "level": 45,
     "damage_capacity": 95,
-    
+
     "image": "AM04"
 }

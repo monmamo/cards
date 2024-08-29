@@ -2,7 +2,7 @@
     "name": "male Energos Monster L35",
     "card_id": "A-M-07",
     "card_type": "Monster",
-    "sex": "male",
+    "subtypes":["Male"],
     "taxons": ["Energos"],
     "speed": 18,
     "size": 12,

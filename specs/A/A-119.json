@@ -6,13 +6,14 @@
         "For each card you discarded,",
         "remove 5 damage from one Monster."
     ],
-    "stats": [
-        "Item"
+    "subtypes": [
+        "Item",
+        "Healing"
     ],
     "image": {
         "filename": "A119.jpg",
         "credit": "freepik",
         "source": "https://www.freepik.com/free-photo/brain-booster-pills-container-still-life_65114716.htm"
     },
-    "flavor_text": ""
+    "flavor_text": "Does a monster good!"
 }

@@ -1,7 +1,7 @@
 {
     "name": "Aquomusor L30",
     "card_type": "Monster",
-    "sex": "male",
+    "subtypes":["Male"],
     "taxons": [
         "Aquos",
         "Musos"

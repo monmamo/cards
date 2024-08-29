@@ -1,8 +1,8 @@
 {
     "name": "Pyros Monster L40",
-    
+
     "card_type": "Monster",
-    "sex": "female",
+    "subtypes":["Female"],
     "taxons": ["Pyros", "TODO"],
     "multiplier":3,
     "speed": 10,
@@ -10,5 +10,5 @@
     "level": 40,
     "damage_capacity": 70,
     "image": "https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FMonMaMo%2F4vvvGVlDFF.png?alt=media&token=6dddeb26-525f-4803-9565-1dc5086089cf"
-    
+
 }

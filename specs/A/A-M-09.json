@@ -2,7 +2,7 @@
     "name": "Pyrorodent L30",
     "card_id": "A-M-09",
     "card_type": "Monster",
-    "sex": "male",
+    "subtypes":["Male"],
     "taxons": ["Pyros"],
     "multiplier": 2,
     "speed": 10,

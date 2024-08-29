@@ -133,7 +133,9 @@
             "name": "Familiar Bell",
             "card_type": "Draw",
             "body_text": "Search your Library for a Monster with the same name as a Monster in your Discard. Reveal that/those card(s). Put that/those card(s) in your hand. Shuffle your Library.",
-            "stats":["Item"],
+            "stats": [
+                "Item"
+            ],
             "image": {
                 "filename": null,
                 "credit": null,
@@ -191,6 +193,21 @@
             "name": "Tickle",
             "card_type": "Attack",
             "body_text": "Does 3xSpeed damage.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Stealth",
+            "card_type": "Trait",
+            "body_text": "When attacking, roll 1d6. If 6, do not apply declared Defense. Can be improved with Power Up.",
             "stats": null,
             "subtypes": [],
             "image": {

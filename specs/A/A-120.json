@@ -5,7 +5,7 @@
     ],
     "card_type": "Upkeep",
     "flavor_text": "Does a monster good!",
-    "functions": [
+    "subtypes": [
         "Item",
         "Healing"
     ],

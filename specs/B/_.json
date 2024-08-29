@@ -83,6 +83,30 @@
             "body_text": ""
         },
         {
+            "name": "Sunken Eye",
+            "card_type": "Bane",
+            "body_text": [
+                "You may play this Bane only with an Attack.",
+                "Limit 2 per Monster."
+            ]
+        },
+        {
+            "name": "Temporary Blindness",
+            "card_type": "Bane",
+            "body_text": [
+                "You may play this Bane only with an Attack.",
+                "Limit 1 per Monster."
+            ]
+        },
+        {
+            "name": "Permanent Blindness",
+            "card_type": "Bane",
+            "body_text": [
+                "You may play this Bane only with an Attack.",
+                "Limit 1 per Monster."
+            ]
+        },
+        {
             "name": "Tsunami",
             "card_type": "Catastrophe",
             "body_text": ""
@@ -91,6 +115,21 @@
             "name": "Volcano",
             "card_type": "Catastrophe",
             "body_text": ""
+        },
+        {
+            "name": "Cowardice",
+            "card_type": "Bane",
+            "body_text": "Attack -3. Defense -3.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
         }
     ]
 }

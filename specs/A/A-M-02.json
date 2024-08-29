@@ -2,7 +2,7 @@
     "name": "Lutress L35",
     "card_id": "A-M-02",
     "card_type": "Monster",
-    "sex": "female",
+    "subtypes":["Female"],
     "taxons": ["Aquos", "Lutros"],
     "speed": 8,
     "size": 18,

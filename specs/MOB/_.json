@@ -10,6 +10,66 @@
             ],
             "size": 10,
             "speed": 10
+        },
+        {
+            "name": "Signal Stealer",
+            "card_type": "Mobster",
+            "body_text": "Choose an opponent. He/she must put all Attack and Defense cards face up.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "F* Around and Find Out",
+            "card_type": "",
+            "body_text": "Each time someone attacks one of your Monsters, you may draw a card.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Corrupt Legislator",
+            "card_type": "Mobster",
+            "body_text": "",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "I Shot the Sheriff",
+            "card_type": "Upkeep",
+            "body_text": "Exile the Sheriff card.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
         }
     ]
 }

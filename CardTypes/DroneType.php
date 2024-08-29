@@ -17,8 +17,8 @@ abstract class DroneType implements \CardType
 
     public static function standardRule(): \Traversable
     {
-        yield "Item";
-        yield "While on the Battlefield, counts as a Flying Monster. Cannot attack. Can use Dodge.";
+        yield "While on the Battlefield, counts as a Flying Monster.";
+        yield "Cannot attack. Can use Dodge.";
     }
 
     public static function icon(): ?string
@@ -30,8 +30,8 @@ abstract class DroneType implements \CardType
 
     public static function background(): ?string
     {
-        return
-            <<<SVG
-SVG;
+        return null;
+        // <<<SVG
+        // SVG;
     }
 }

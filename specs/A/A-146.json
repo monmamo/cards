@@ -1,11 +1,14 @@
 {
-    "body_text":[ "Discard two or more cards from your hand.","Then draw that number plus two cards."],
-    "card_type": "Draw",
+    "body_text": [
+        "Discard two or more cards from your hand.",
+        "Then draw that number plus two cards."
+    ],
+    "card_type": "Vendor",
     "flavor_text": "Can’t win if you don’t play!",
     "image": {
         "filename": "A146.jpg",
         "credit": "storyset on Freepik",
-        "source":  "https://www.freepik.com/free-vector/lottery-ticket-concept-illustration_171056284.htm"
+        "source": "https://www.freepik.com/free-vector/lottery-ticket-concept-illustration_171056284.htm"
     },
     "name": "Lottery",
     "subtypes": [

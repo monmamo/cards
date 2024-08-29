@@ -28,7 +28,10 @@ $image_uri =     isset($image->filename) ? match (true) {
     default => null
 } : null;
 
-$image_svg = isset($image->svg) ? $image->svg : null;
+$image_svg = isset($image->svg) ? match (true) {
+    is_string($image->svg) => $image->svg,
+    is_array($image->svg) => implode($image->svg),
+} : null;
 
 $image_credit = match (true) {
     isset($image->ai) && $image->ai => "Generated image",
@@ -121,7 +124,7 @@ header("Content-Type: image/svg+xml");
             height: 450px;
         }
 
-        g.svg-icon {
+        g.svg-hero {
             position: absolute;
             transform: translate(121px, 0);
             margin: 0;
@@ -180,13 +183,13 @@ SVG;
                 $stats_found[] = [$$slug, $fqn];
             }
         }
-        foreach ($functions ?? [] as $name) {
-            $stats_found[] = [$name, "\\Stats\\{$name}"];
+        foreach ($subtypes ?? [] as $subtype_name) {
+            $stats_found[] = [$subtype_name, "\\Stats\\{$subtype_name}"];
         }
 
         define('STAT_ICON_HEIGHT', 54);
         ?>
-        <rect width="154" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%" />
+        <rect width="200" height="<?= STAT_ICON_HEIGHT * count($stats_found) ?>" fill="#FFFFFF" fill-opacity="85%" />
         <?php
 
         foreach ($stats_found as $index => $data) {
@@ -197,15 +200,28 @@ SVG;
 
         <?php
         }
+
+        $flavor_text_lines = match (true) {
+            !isset($flavor_text) => [],
+            is_string($flavor_text) => [$flavor_text],
+            is_array($flavor_text) => $flavor_text
+        };
+
+        $y = 475;
         ?>
 
         <g>
 
             <text x="50%" y="475" width="100%" height="auto" text-anchor="middle">
-                <tspan x="50%" class="flavor" alignment-baseline="top"><?= $flavor_text ?? null ?></tspan>
+                <?php foreach ($flavor_text_lines  as $line) { ?>
+                    <tspan x="50%" y="<?= $y ?>" class="flavor" alignment-baseline="top"><?= $line ?? null ?></tspan>
+                <?php
+                    $y += 25;
+                }
+                ?>
             </text>
 
-            <text x="50%" y="495" width="100%" height="auto" filter="url(#solid)">
+            <text x="50%" y="<?= $y ?>" width="100%" height="auto" filter="url(#solid)">
                 <?php
                 $stats ??= [];
 

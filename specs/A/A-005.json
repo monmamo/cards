@@ -1,7 +1,10 @@
 {
     "name": "Community Center",
     "card_type": "Facility",
-    "body_text": "No Mobsters allowed.",
+    "body_text": [
+        "No Mobsters are allowed on the Battlefield.",
+        "Discard all Mobsters from the Battlefield."
+    ],
     "stats": null,
     "image": {
         "filename": null,

@@ -23,6 +23,7 @@ $total_count = 0;
 ?>
 <script src="https://unpkg.com/htmx.org@2.0.2"></script>
 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" hx-boost="true" hx-target="#right-section" hx-swap="innerHTML">
+    <li><strong><?= $name ?? 'UNKNOWN DECK' ?></strong></li>
     <?php
     foreach ($cards as $card_id => $count) {
         $total_count += $count;

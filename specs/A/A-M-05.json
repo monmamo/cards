@@ -1,8 +1,8 @@
 {
     "name": "Energos Monster L30",
-    
+
     "card_type": "Monster",
-    "sex": "female",
+    "subtypes":["Female"],
     "taxons": ["Energos"],
     "speed": 10,
     "size": 16,
@@ -14,7 +14,7 @@
         "source": null
     },
 
-    
+
     "multiplier":2,
     "background_color": "#FB9E00"
 }

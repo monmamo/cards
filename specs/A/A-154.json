@@ -1,6 +1,6 @@
 {
   "name": "Mana Lottery",
-  "card_type": "Draw",
+  "card_type": "Vendor",
   "body_text": [
     "Discard two or more cards from your hand.",
     "Lay your hand aside. Draw twice as many",
