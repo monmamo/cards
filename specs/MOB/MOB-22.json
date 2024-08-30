@@ -1,20 +1,18 @@
 {
     "name": "Motorcycle Gang monster L41",
     "card_type": "Monster",
-    "body_text": "",
-    "stats": null,"subtypes":[],
+    "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
-"level": 41,
-"damage_capacity": 68,
-"size": 19,
-"speed": 9,
+    "level": 41,
+    "damage_capacity": 68,
+    "size": 19,
+    "speed": 9,
     "flavor_text": null
-    
 }
-

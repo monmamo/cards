@@ -1,0 +1,6 @@
+{
+    "name": "Apothecary",
+    "card_type": "Vendor",
+    "integrity": "1d4",
+    "body_text": "Search your Library for 1 Healing card. Reveal the card, then put it in your hand. Shuffle your Library afterwards."
+}

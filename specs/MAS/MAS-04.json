@@ -1,8 +1,8 @@
 {
-    "name": "Motorcycle Gang monster L43",
-    "card_type": "Monster",
+    "name": "Face Guard",
+    "card_type": "Wearable",
+    "body_text": null,
     "stats": null,
-    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
@@ -10,9 +10,5 @@
         "ai": false,
         "prompt": null
     },
-    "level": 43,
-    "damage_capacity": 72,
-    "size": 20,
-    "speed": 9,
     "flavor_text": null
 }

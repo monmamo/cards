@@ -1,20 +1,18 @@
 {
     "name": "Street Gang monster L29",
     "card_type": "Monster",
-    "body_text": "",
-    "stats": null,"subtypes":[],
+    "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
-"level": 29,
-"damage_capacity": 58,
-"size": 14,
-"speed": 14,
+    "level": 29,
+    "damage_capacity": 58,
+    "size": 14,
+    "speed": 14,
     "flavor_text": null
-
 }
-

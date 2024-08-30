@@ -1,20 +1,18 @@
 {
     "name": "Street Gang monster L36",
     "card_type": "Monster",
-    "body_text": "",
-    "stats": null,"subtypes":[],
+    "stats": null,
+    "subtypes": [],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
-"level": 36,
-"damage_capacity": 68,
-"size": 17,
-"speed": 12,
+    "level": 36,
+    "damage_capacity": 68,
+    "size": 17,
+    "speed": 12,
     "flavor_text": null
-    
 }
-

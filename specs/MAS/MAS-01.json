@@ -1,9 +1,7 @@
 {
-    "name": "Scrubland",
-    "card_type": "Place",
-    "subtypes": [
-        "Generic"
-    ],
+    "name": "Backpack Check",
+    "card_type": null,
+    "body_text": "No more Item cards can be played.",
     "image": {
         "filename": null,
         "credit": null,

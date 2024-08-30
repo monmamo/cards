@@ -1,8 +1,6 @@
 {
-    "name": "normal\" Canos monster",
-    "card_id": "A-M-21",
+    "name": "\"normal\" Canos monster",
     "card_type": "Monster",
-    "body_text": "",
     "size": 16,
     "speed": 10,
     "level": 30

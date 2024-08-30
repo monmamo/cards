@@ -1,7 +1,7 @@
 {
-    "name": "Horsetail",
-    "card_type": "Mana",
-    "body_text": "",
+    "name": "Favorite Toy",
+    "card_type": "Item",
+    "body_text": "If this Monster isn’t attacking on your turn, remove 5 damage.",
     "stats": null,"subtypes":[],
     "image": {
         "filename": null,
@@ -12,4 +12,3 @@
     },
     "flavor_text": null
 }
-

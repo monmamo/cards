@@ -1,5 +1,5 @@
 {
-    "name": "Don",
+    "name": "Leader of the Pack",
     "card_type": "Mobster",
     "stats": [
         "Boss"
@@ -11,5 +11,5 @@
         "ai": false,
         "prompt": null
     },
-    "flavor_text": "Highest ranking member of a Crime Family."
+    "flavor_text": "Highest ranking member of a Motorcycle Gang."
 }

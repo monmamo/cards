@@ -1,0 +1,11 @@
+{
+    "body_text": [
+        "Limit 1 per player on Battlefield. You must",
+        "already have a Head Coach on the Battlefield",
+        "to put this card on the Battlefield.",
+        "Draw phase: For each card you draw, you may look at the top 3 cards of your Library If you do this, you may put one of those cards in your hand. The other cards go to the bottom of your Library."
+    ],
+    "card_type": "Bystander",
+    "integrity": "1d6",
+    "name": "Draw Coach"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Financial Planner",
+    "card_type": "Vendor",
+    "body_text": "Shuffle 1d4 discarded cards of your choice into your Library. You may take another Draw phase."
+}

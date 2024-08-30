@@ -1,6 +1,6 @@
 {
     "name": "Merchandizing",
     "card_type": "Vendor",
-    "body_text": "",
+    "body_text": ["Discard a card from your hand","to draw two cards from your Library."],
     "flavor_text": "Where the real money from the concept is made.\" - Mel Brooks"
 }

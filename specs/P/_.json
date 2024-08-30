@@ -1,34 +1,6 @@
 {
     "name": "Places and Environments",
     "unassigned": [
-        {
-            "name": "Autumn",
-            "card_type": "Environment",
-            "subtypes": [
-                "Season"
-            ],
-            "body_text": ""
-        },
-        {
-            "name": "Spring",
-            "card_type": "Environment",
-            "subtypes": [
-                "Season"
-            ]
-        },
-        {
-            "name": "Summer",
-            "card_type": "Environment",
-            "subtypes": [
-                "Season"
-            ]
-        },
-        {
-            "name": "Winter",
-            "card_type": "Environment",
-            "subtypes": [
-                "Season"
-            ]
-        }
+        
     ]
 }

@@ -1,6 +1,9 @@
 {
     "name": "colorless monster L42",
-    
     "card_type": "Monster",
-    "body_text": ""
+    "damage_capacity": 69,
+    "speed": 13,
+    "size": 20,
+    "level": 42,
+    "multiplier": 4
 }

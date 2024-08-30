@@ -1,0 +1,8 @@
+{
+    "name": "Nonresistance",
+    "card_type": "Defense",
+    "body_text": [
+        "Prevent 1d% damage.",
+        "The attacking Monster takes the amount of Damage prevented."
+    ]
+}

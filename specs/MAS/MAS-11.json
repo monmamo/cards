@@ -1,7 +1,7 @@
 {
-    "name": "Boss",
-    "card_type": "Mobster",
-    "body_text": "Draw Phase: You may draw one card for each Mobster you have on the Battlefield. Then you may take another Draw phase.",
+    "name": "Tickle",
+    "card_type": "Attack",
+    "body_text": "Does 3xSpeed damage.",
     "stats": null,
     "subtypes": [],
     "image": {

@@ -28,6 +28,101 @@
             "body_text": ""
         },
         {
+            "name": "Obsession",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Paranoia",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Pestilence",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Plague",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Poison",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Rabies",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Rampage",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Riot",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Sabotage",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Scurvy",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Slander",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Smog",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Stench",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Terror",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Toxic Waste",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Treachery",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Tumor",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Vandalism",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
+            "name": "Virus",
+            "card_type": "Bane",
+            "body_text": ""
+        },
+        {
             "name": "Diarrhea",
             "card_type": "Bane",
             "body_text": ""
@@ -109,11 +204,16 @@
         {
             "name": "Tsunami",
             "card_type": "Catastrophe",
-            "body_text": ""
+            "body_text": [
+                "Each player discards 3 cards from the top of his [[Library]].",
+                "If the [[Place]] card in play is a [[Venue]] or [[Facility]] card, discard it.",
+                "Discard all [[Mobster]] and [[Bystander]] cards in play.",
+                "Discard all [[Item]] cards in play."
+            ]
         },
         {
             "name": "Volcano",
-            "card_type": "Catastrophe",
+            "card_type": "Place",
             "body_text": ""
         },
         {
@@ -130,6 +230,16 @@
                 "prompt": null
             },
             "flavor_text": null
+        },
+        {
+            "name": "Volcanic Eruption",
+            "card_type": "Catastrophe",
+            "body_text": [
+                "May be played only when the Place in play is a [[Volcano]].",
+                "Each Monster in play that does not have some sort of flying ability immediately takes 2 damage.",
+                "Each player discards 3 cards from the top of his [[Library]].",
+                "Discard all Mobster and Bystander cards in play."
+            ]
         }
     ]
 }

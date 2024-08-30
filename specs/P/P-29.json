@@ -1,15 +1,16 @@
-
 {
     "name": "Lighthouse",
     "card_type": "Place",
-    "body_text": "",
-    "stats": null,"subtypes":[],
+    "stats": null,
+    "subtypes": [
+        "Generic"
+    ],
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
     "flavor_text": null
 }

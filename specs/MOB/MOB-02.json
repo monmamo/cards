@@ -1,21 +1,18 @@
 {
     "name": "\"clone\" monster L32",
     "card_type": "Monster",
-    "body_text": null,
-    "stats": null,"subtypes":[],
-
+    "stats": null,
+    "subtypes": [],
     "size": 18,
-        "speed": 10,
-        "level": 32,
-        "damage_capacity":62,
-
-
+    "speed": 10,
+    "level": 32,
+    "damage_capacity": 62,
     "image": {
         "filename": null,
         "credit": null,
         "source": null,
-        "ai":false,
-        "prompt":null
+        "ai": false,
+        "prompt": null
     },
     "flavor_text": null
 }

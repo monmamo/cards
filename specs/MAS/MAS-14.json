@@ -1,0 +1,26 @@
+{
+    "name": "Drive Off",
+    "card_type": "Skill",
+    "body_text": [
+        "This Skill cannot be used if this Monster is",
+        "Confused, Paralyzed, Hypnotized or Asleep",
+        "at the Declaration phase.",
+        "Declaration phase: Choose one opposing Monster.",
+        "Resolution phase: If this Monster was not",
+        "attacked during this turn and the",
+        "chosen Monster was not Knocked Out,",
+        "your opponent must discard that Monster",
+        "and all cards attached to it. You must then discard this Monster and all cards attached to it."
+    ],
+    "stats": null,
+    "subtypes": [],
+    "image": {
+        "filename": null,
+        "credit": null,
+        "source": null,
+        "ai": false,
+        "prompt": null
+    },
+    "flavor_text": null,
+    "_inspiration": "Light Arcanine \"Drive Off\" power"
+}

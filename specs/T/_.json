@@ -2,6 +2,63 @@
     "name": "Traits and Abilities",
     "unassigned": [
         {
+            "name": "Stealth",
+            "card_type": "Trait",
+            "body_text": "When attacking, roll 1d6. If 6, do not apply declared Defense. Can be improved with Power Up.",
+            "stats": null,
+            "subtypes": [],
+            "image": {
+                "filename": null,
+                "credit": null,
+                "source": null,
+                "ai": false,
+                "prompt": null
+            },
+            "flavor_text": null
+        },
+        {
+            "name": "Hot Blood",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Gelatinous Flesh",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Steammaker",
+            "card_type": "Trait",
+            "body_text": [
+                "Requires Aquos.",
+                "If hit by a fire attack or skill,",
+                "the damage that would be done by the fire attack",
+                "or skill (and only that damage) is taken",
+                "by the attacking Monster instead."
+            ]
+        },
+        {
+            "name": "Armor",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Lure Defense",
+            "card_type": "Defense",
+            "body_text": ""
+        },
+        {
+            "name": "Grounded",
+            "card_type": "Trait",
+            "body_text": ""
+        },
+        {
+            "name": "Blade Arms",
+            "card_type": "Trait",
+            "body_text": "",
+            "flavor_text": "Adds a slashing effect to Pounce and physical attacks."
+        },
+        {
             "name": "Air Strike",
             "card_type": "Attack",
             "body_text": ""

@@ -2,157 +2,15 @@
     "name": "Masters Set",
     "unassigned": [
         {
-            "name": "Backpack Check",
-            "card_type": null,
-            "body_text": "No more Item cards can be played.",
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
-            "name": "Buffet",
-            "card_type": "Vendor",
-            "body_text": "Search your Library for any number of distinct Mana cards and put them into your hand. Shuffle your Library.",
-            "stats": null,
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
-            "body_text": [
-                "Limit 1 per player on Battlefield. You must",
-                "already have a Head Coach on the Battlefield",
-                "to put this card on the Battlefield.",
-                "Draw phase: For each card you draw, you may look at the top 3 cards of your Library If you do this, you may put one of those cards in your hand. The other cards go to the bottom of your Library."
-            ],
-            "card_type": "Bystander",
-            "integrity": "1d6",
-            "name": "Draw Coach"
-        },
-        {
-            "name": "Face Guard",
-            "card_type": "Wearable",
-            "body_text": null,
-            "stats": null,
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
-            "name": "Generous Fan",
-            "card_type": "Bystander",
-            "body_text": "Draw phase: You may draw a card and take another Draw phase.",
-            "stats": null,
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
-            "name": "Sympathetic Fan",
-            "card_type": "Bystander",
-            "body_text": "Resolution phase: When one of your Monsters is Knocked Out, you may draw up to 3 cards.",
-            "stats": null,
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
             "name": "Chest Thrust",
             "card_type": "Attack",
             "flavor_text": "Punch to the torso."
-        },
-        {
-            "name": "Blade Arms",
-            "card_type": "Trait",
-            "body_text": "",
-            "flavor_text": "Adds a slashing effect to Pounce and physical attacks."
-        },
-        {
-            "name": "Do the Wave",
-            "card_type": "Attack",
-            "body_text": "GROUP ATTACK. Does Xd4 where X is the number of Monsters you have in play."
-        },
-        {
-            "name": "Drive Off",
-            "card_type": "Skill",
-            "body_text": [
-                "This Skill cannot be used if this Monster is",
-                "Confused, Paralyzed, Hypnotized or Asleep",
-                "at the Declaration phase.",
-                "Declaration phase: Choose one opposing Monster.",
-                "Resolution phase: If this Monster was not",
-                "attacked during this turn and the",
-                "chosen Monster was not Knocked Out,",
-                "your opponent must discard that Monster",
-                "and all cards attached to it. You must then discard this Monster and all cards attached to it."
-            ],
-            "stats": null,
-            "subtypes": [],
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null,
-            "_inspiration": "Light Arcanine \"Drive Off\" power"
         },
         {
             "name": "Face Thrust",
             "card_type": "Attack",
             "Set": "Master Trainer Card Set (https://www.notion.so/Master-Trainer-Card-Set-33603b004b574265b8b68ecabca3a768?pvs=21)",
             "flavor_text": "Punch to the face."
-        },
-        {
-            "name": "Familiar Bell",
-            "card_type": "Draw",
-            "body_text": "Search your Library for a Monster with the same name as a Monster in your Discard. Reveal that/those card(s). Put that/those card(s) in your hand. Shuffle your Library.",
-            "stats": [
-                "Item"
-            ],
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null,
-            "_inspiration": [
-                "Familiar Bell PTCG card",
-                "https://bulbapedia.bulbagarden.net/wiki/Familiar_Bell_(Darkness_Ablaze_161)"
-            ]
-        },
-        {
-            "name": "Financial Planner",
-            "card_type": "Vendor",
-            "body_text": "Shuffle 1d4 discarded cards of your choice into your Library. You may take another Draw phase."
         },
         {
             "name": "Forehead Strike",
@@ -166,58 +24,12 @@
         },
         {
             "name": "High Block",
-            "body_text": ""
+            "body_text": "Defense"
         },
         {
             "name": "Low Block",
-            "body_text": ""
-        },
-        {
-            "name": "Nonresistance",
-            "card_type": "Defense",
-            "body_text": [
-                "Prevent 1d% damage.",
-                "The attacking Monster takes the amount of Damage prevented."
-            ]
-        },
-        {
-            "name": "Proper Warmup",
-            "card_type": "Trait",
-            "subtypes": "Setup",
-            "body_text": [
-                "Speed +3.",
-                "If this Monster is Knocked Out, discard this card."
-            ]
-        },
-        {
-            "name": "Tickle",
-            "card_type": "Attack",
-            "body_text": "Does 3xSpeed damage.",
-            "stats": null,
-            "subtypes": [],
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
-        },
-        {
-            "name": "Stealth",
-            "card_type": "Trait",
-            "body_text": "When attacking, roll 1d6. If 6, do not apply declared Defense. Can be improved with Power Up.",
-            "stats": null,
-            "subtypes": [],
-            "image": {
-                "filename": null,
-                "credit": null,
-                "source": null,
-                "ai": false,
-                "prompt": null
-            },
-            "flavor_text": null
+            "body_text": "Defense"
         }
     ]
 }
+

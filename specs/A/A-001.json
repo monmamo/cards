@@ -1,7 +1,6 @@
 {
     "name": "Acid",
     "card_type": "Mana",
-    "body_text": null,
     "stats": null,"subtypes":[],
     "image": {
         "fullsize":true,
@@ -10,6 +9,5 @@
         "source": null,
         "ai":false,
         "prompt":null
-    },
-    "flavor_text": null
+    }
 }

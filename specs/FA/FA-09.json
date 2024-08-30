@@ -1,0 +1,17 @@
+{
+    "name": "Canned Monster Food",
+    "card_id": "FA-09",
+    "card_type": "Consumable",
+    "subtypes": "Food",
+    "body_text": [
+        "Upkeep phase: Attach Monstermeal to a Monster that is not Knocked Out.",
+        "Declaration phase: This Monster may not attack or be attacked during this turn.",
+        "Resolution phase: Discard this card. Remove 1d10-1d4 damage from this Monster."
+    ],
+    "flavor_text": "Meaty chunks in a thick, savory gravy.",
+    "image": {
+        "filename": "FA-09.png",
+        "ai": false,
+        "prompt": "A can of meaty chunks in a thick, savory gravy."
+    }
+}

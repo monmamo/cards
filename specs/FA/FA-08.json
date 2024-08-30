@@ -1,0 +1,13 @@
+{
+    "name": "Healing Herb",
+    "card_id": "FA-08",
+    "card_type": "Upkeep",
+    "subtypes": "Healing",
+    "body_text": "Attach this card to a Monster. After all attacks have been resolved (even if the Monster has been knocked out), roll 3d6. Remove that amount of damage from that Monster. If two or three of the rolls are 5 or higher, remove all Banes from that Monster.",
+    "flavor_text": "The best medicine is the one that tastes the worst.",
+    "image": {
+        "filename": "FA-08.png",
+        "ai": false,
+        "prompt": "A potion bottle with a green liquid inside."
+    }
+}
